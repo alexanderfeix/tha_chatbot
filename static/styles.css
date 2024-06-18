@@ -1,0 +1,213 @@
+.chat-row {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.chat-bubble {
+    font-family: TWKEverett, Arial, Helvetica, sans-serif !important;
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    margin: 0px 7px;
+    max-width: 70%;
+}
+
+.ai-bubble {
+    background: rgb(240, 242, 246);
+    border-radius: 10px;
+    color: black;
+}
+
+.human-bubble {
+    background: linear-gradient(135deg, rgb(0, 178, 255) 0%, rgb(0, 106, 255) 100%); 
+    color: white;
+    border-radius: 20px;
+}
+
+.chat-icon {
+    border-radius: 5px;
+}
+
+.stAudio {
+    width: 100px !important;
+}
+
+.audio_player_widget {
+    display: none !important;
+}
+
+.block-container{
+    padding-top: 30px!important;
+
+}
+
+.container-fluid{
+    border-bottom: 1px solid;
+    margin-bottom: 1rem;
+    padding-bottom: 2em;
+}
+
+.icon{
+    font-size: 12px;
+}
+
+.infobox{
+    font-size: 12px;
+}
+
+.stBottomBlockContainer{
+    padding-bottom: 0px;
+}
+
+.st-emotion-cache-p4micv {
+    object-fit: contain !important;
+}
+
+.st-emotion-cache-10trblm {
+    margin-left: 2.5rem;
+}
+
+@font-face {
+    font-family: "TWKEverett" !important;
+    font-size: normal;
+    src: url("fonts/TWKEverett-Regular-web.woff2") format("woff2"),
+        url("fonts/TWKEverett-Regular-web.ttf") format("truetype");
+}
+
+p, div, span, head, html, body, h1 {
+    font-family: TWKEverett Arial, Helvetica, sans-serif;
+}
+
+div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
+    position: sticky;
+    top: 2.875rem;
+    z-index: 999;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+div[data-testid="stVerticalBlock"]:has(> div.element-container > div.stMarkdown > div[data-testid="stMarkdownContainer"] > p > span.clear_button) {
+    button {
+        position: fixed;
+        top: 4.6rem;
+        right: 3rem;
+        z-index: 9999;
+        padding: 0.25em 0.5em 0.25em 0.5em;
+        width: auto;
+    }
+
+    p {
+        word-wrap: break-word;
+        text-align: center;
+    }
+}
+
+.text-right img{
+    width: 70px;
+}
+
+.sticky-footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding-top: 0.5px;
+    z-index: 9999;
+    display: flex;
+    text-align: center; 
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.sticky-footer-container p {
+    font-size: 12px;
+    margin-bottom: 0.5em;
+}
+
+.alert.infobox {
+    margin: 0 !important;
+     /* Removes default Streamlit margin from the bottom */
+}
+
+.audio_player_widget {
+    width: 100%;
+}
+
+@media (max-width: 675px) {
+    .container-fluid{
+        border-bottom: 1px solid;
+        margin-bottom: 0.5rem;
+        padding-bottom: 1.5em;
+    }
+
+    .fixed-header h1{
+        font-size: 22px;
+    }
+    .sticky-footer-container p {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .text-right img{
+        width: 50px;
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div.element-container > div.stMarkdown > div[data-testid="stMarkdownContainer"] > p > span.clear_button) {
+        button {
+            top: 3.85rem;
+        }
+
+        p {
+            font-size: 0.85em;
+        }
+    }
+}
+
+
+@media (max-width: 475px) {
+    .container-fluid {
+        border-bottom: 1px solid;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.75em;
+    }
+
+    .fixed-header h1 {
+        font-size: 19px;
+    }
+
+    .sticky-footer-container p {
+        font-size: 9px;
+        margin: 0;
+    }
+
+    .text-right img {
+        width: 30px;
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div.element-container > div.stMarkdown > div[data-testid="stMarkdownContainer"] > p > span.clear_button) {
+        button {
+            top: 3.75em;
+        }
+
+        p {
+            font-size: 0.7em;
+        }
+    }
+}
+
+@media (max-width: 433px) {
+    .container-fluid {
+        padding-bottom: 0;
+    }
+
+    div[data-testid="stVerticalBlock"]:has(> div.element-container > div.stMarkdown > div[data-testid="stMarkdownContainer"] > p > span.clear_button) {
+        button {
+            top: 4.3em;
+        }
+    }
+}

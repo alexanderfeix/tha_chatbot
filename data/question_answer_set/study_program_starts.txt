@@ -1,0 +1,119 @@
+Q: In which semester does the Architecture bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Civil Engineering bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Business Administration bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Creative Engineering bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Data Science bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Digital.Design and Production bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Elektro- und Informationstechnik bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Electrical Engineering bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Energy Efficient Planning and Building bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Informatics (Computer Science) bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Interactive Media bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the International Management bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the International Management and Engineering bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Communication Design bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Mechanical Engineering program bachelor start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Mechatronics bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Social Work bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the Systems Engineering bachelor program start?
+A: This program starts in the winter semester.
+
+Q: In which semester does the master program “Applied Research in Engineering Sciences” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Architecture” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Business Information Systems” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Civil Engineering” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Informatics (Computer Science)” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Energy Efficiency Design – E2D” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Environmental and Process Engineering” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Human Resource Management” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “Identity Design” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “Industrial Safety and Security” start?
+A: This program starts in the summer term.
+
+Q: In which semester does the master program “Interactive Media Systems” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “International Business and Finance” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “International Business and Technology” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “International Marketing and Sales” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “International Social Work with Refugees and Migrants” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “Management in International Business” start?
+A: This program starts in the winter term.
+
+Q: In which semester does the master program “Mechanical Engineering” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Media Informatics” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Medical Engineering” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Mobile and Embedded Systems” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Software Engineering” start?
+A: This program starts in every semester.
+
+Q: In which semester does the master program “Web Engineering” start?
+A: This program starts in every semester.

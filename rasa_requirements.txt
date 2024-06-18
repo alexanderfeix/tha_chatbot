@@ -1,0 +1,2 @@
+rasa==3.6.20
+pyspellchecker==0.8.1

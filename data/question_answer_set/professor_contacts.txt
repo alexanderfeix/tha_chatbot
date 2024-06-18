@@ -1,0 +1,2 @@
+Q: How can I contact a professor at the Technical University of Applied Sciences Augsburg?
+A: In order to contact any person, write their name and surname divided by a "." and then add "@tha.de". For Example: name.surname@tha.de

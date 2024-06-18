@@ -1,0 +1,11 @@
+Q: Show me all the sports available.
+A: Here you can find a list of all current sport courses available: https://hsa.sport.uni-augsburg.de/index.php/en/courses
+
+Q: What sport courses take place today?
+A: Here you can find a list of all sport courses that take place today: https://anmeldung.sport.uni-augsburg.de/angebote/aktueller_zeitraum/index_heute.html
+
+Q: How can I apply for university sport programs?
+A: Here you can find information about the online application and more: https://hsa.sport.uni-augsburg.de/index.php/en/terms-conditions
+
+Q: What is the registration deadline for the application for university sport programs?
+A: Here you can find current deadlines and more information about the registration: https://hsa.sport.uni-augsburg.de/index.php/en/

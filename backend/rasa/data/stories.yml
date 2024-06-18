@@ -1,0 +1,179 @@
+version: "3.1"
+
+stories:
+  - story: university_map
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: university_map
+      - action: utter_university_map
+
+  - story: University Library Plan
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: library_plan
+      - action: utter_library_plan
+
+  - story: CCA Vending machines
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: CCA_plan
+      - action: utter_CCA_plan
+
+  - story: Student Internship representative
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: stud_intern_rep
+      - action: utter_stud_intern_rep
+
+  - story: Canteen Menu of the University
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: canteen_menu
+      - action: utter_canteen_menu
+
+  - story: Guideline for bachelor degree applicants
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: guidelines_bachelor
+      - action: utter_guidelines_bachelor
+
+  - story: Guideline for master degree applicants
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: guidelines_master
+      - action: utter_guidelines_master
+
+  - story: Accredited German language exams
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: german_exam_accredition
+      - action: utter_german_exam_accredition
+
+  - story: credit transfer from different or same uni
+    steps:
+      - intent: greet
+      - action: utter_starter
+      - intent: crediting_grades
+      - action: utter_crediting_grades
+
+  - story: general_intent
+    steps:
+      - intent: general_studyplan
+      - action: provide_general_studyplan_english
+      - intent: study_programs
+      - action: provide_general_studyplan_english
+      - intent: study_type_choice
+      - action: provide_general_studyplan_english
+
+  ###--------------------------------------------------------  German intents start here   -------------------------------------------------------###
+
+  - story: german_credit_grades
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_credit_grades
+      - action: utter_german_credit_grades
+
+  - story: german_uni_library_plan
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_uni_library_plan
+      - action: utter_german_uni_library_plan
+
+  - story: german_university_map
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_university_map
+      - action: utter_german_university_map
+
+  - story: german_CCA Vending machines
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_CCA_plan
+      - action: utter_german_CCA_plan
+
+  - story: german_stud_intern_rep
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_stud_intern_rep
+      - action: utter_german_stud_intern_rep
+
+  - story: German_Canteen Menu of the University
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_canteen_menu
+      - action: utter_german_canteen_menu
+
+  - story: German_Guideline for bachelor degree applicants
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_guidelines_bachelor
+      - action: utter_german_guidelines_bachelor
+
+  - story: German_Guideline for master degree applicants
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_guidelines_master
+      - action: utter_german_guidelines_master
+
+  - story: German_Accredited German language exams
+    steps:
+      - intent: greet_german
+      - action: utter_starter_german
+      - intent: german_exam_accredition_de
+      - action: utter_german_exam_accredition_de
+
+  - story: general_intent_german
+    steps:
+      - intent: general_studyplan_german
+      - action: provide_general_studyplan_german
+      - intent: study_programs
+      - action: provide_general_studyplan_german
+      - intent: study_type_choice
+      - action: provide_general_studyplan_german
+
+  - story: thanks message
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+
+  - story: danke nachricht
+    steps:
+      - intent: danke
+      - action: utter_danke
+
+  - story: goodbye message
+    steps:
+      - intent: bye
+      - action: utter_goodbye
+
+  - story: tschuess nachricht
+    steps:
+      - intent: tschuess
+      - action: utter_tschuess
+
+  - story: wrong message
+    steps:
+      - intent: wrong
+      - action: utter_wrong
+
+  - story: falsch nachricht
+    steps:
+      - intent: falsch
+      - action: utter_falsch
+

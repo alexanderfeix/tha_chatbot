@@ -1,0 +1,92 @@
+# In-Source: https://www.tha.de/en/Computer-Science/Master-3.html
+
+Q: What are the available Master’s programs in the faculty of informatics at Technical University of Applied Sciences Augsburg?
+A: The department of informatics at the university offers the following Master’s programs:
+- Applied Research (M.Sc.)
+- Business Information Systems (M.Sc.)
+- Industrielle Sicherheit (M.Sc.)
+- Informatik (M.Sc.)
+- Interaktive Mediensysteme (M.A.)
+- IT-Projekt- und Prozessmanagement (M.Sc.)
+- Mechatronic Systems (M.Eng.)
+Find more information here: https://www.tha.de/en/Master-Programs.html
+
+Q: How can I apply for admission to the Master’s programs?
+A: To apply for admission, follow these steps:
+Use the online-webserver of the Technical University of Applied Sciences Augsburg.
+Fill out the online forms, print and sign them.
+Send all required application documents along with the admission application to the student registration office (“Studentenamt”). Remember to submit documents for each individual Master’s program you apply to.
+Find more information here: https://www.tha.de/en/Application/Masters-Programs.html
+
+Q: What language are the Master’s programs of the Technical University of Applied Sciences Augsburg taught in?
+A: The language of instruction varies:
+Computer Science: Taught in german.
+Mechatronic Systems: Taught in english.
+Find more information here: https://www.tha.de/en/Master-Programs.html
+
+Q: Can I apply for multiple Master’s programs?
+A: Yes, you can apply for multiple programs. However, ensure that you submit all required documents separately for each program to ensure proper processing.
+Find more information here: https://www.tha.de/en/Application/Masters-Programs.html
+
+Q: What is the role of the student registration office (“Studentenamt”) in the application process?
+A: The student registration office handles administrative aspects related to your application. For specific content and admission details, contact the relevant faculty staff.
+Find more information here: https://www.tha.de/en/Application/Masters-Programs.html
+
+Q: Are there any guidelines for Master’s degree applicants from abroad?
+A: Yes, there are guidelines for applicants from abroad. You can find them in the document titled “Guidelines for Master Degree Application from Abroad” on the website.
+Find more information here: https://www.tha.de/en/Application/Masters-Programs.html
+
+Q: What German language exams are approved for admission?
+A: Refer to the document titled “Approved German Language Exams” on the website for a list of accepted exams.
+Find more information here: https://www.tha.de/en/Application/Masters-Programs.html
+
+Q: Is there an academic calendar for the Master’s programs?
+A: For specific dates, refer to official university resources.
+
+Q: Can I study part-time in the Environmental and Process Engineering program?
+A: Yes, the Environmental and Process Engineering program offers both full-time and part-time study options.
+Find more information here: https://www.tha.de/en/Master-Programs.html
+
+Q: What cooperative study opportunities are available in the Energy Efficiency Design program?
+A: The Energy Efficiency Design program is a dual cooperative study program, which means it combines theoretical learning with practical experience.
+Find more information here: https://www.tha.de/en/Master-Programs.html
+
+Q: How do I contact the relevant faculty staff for program-specific information?
+A: For content and admission details, get in touch with the relevant faculty staff. Their contact information should be available on the university’s website.
+
+Q: Is there a list of offered Master’s degree programs?
+A: Yes, you can find the list of offered Master’s programs here: https://www.tha.de/en/Master-Programs.html
+
+Q: How can I access the application forms for Master’s programs?
+A: Use the online-webserver of the Technical University of Applied Sciences Augsburg and fill out the online forms. Then print and sign them before submitting the required documents.
+Find more information here: https://www.tha.de/en/Application/Masters-Programs.html
+
+Q: What is the focus of the Computer Science Master’s course at the Technical University of Applied Sciences Augsburg?
+A: One aim of the contents and methods taught on this course is to awake the students’ curiosity for practical problems and theoretical questions, and to enable them to independently expand their own stock of knowledge and methods.
+Find more information here: https://www.tha.de/en/Computer-Science/Computer-Science-MSc.html
+
+Q: What master study programms are taught at the university?
+A: List of current courses:
+- Applied Research in Engineering Sciences (M.Sc.)
+- Architecture (M.A.)
+- Business Information Systems (M.Sc.)
+- Civil Engineering (M.Eng.)
+- Computer Science (M.Sc.)
+- Energy Efficiency Design – E2D (M.Eng.)
+- Environmental and Process Engineering (M.Eng.)
+- Human Resource Management (M.Sc.)
+- Identity Design (M.A.)
+- Industrial Safety and Security (M.Sc.)
+- Interactive Media Systems (M.A.)
+- International Business and Finance (M.A.)
+- IT-Project- and Process Management (M.Sc.)
+- Marketing-Management Digital (M.A.)
+- Mechanical Engineering (M.Eng.)
+- Mechatronic Systems (M.Eng.)
+- Production Engineering (M.Eng.)
+- Project Management (Civil Engineering) (M.Eng.)
+- Sustainability Management (M.A.)
+- Taxation and Accounting (M.A.)
+- Technology Management (M.Eng.)
+- Transformation Design (M.A.)
+Find more information here: https://www.tha.de/en/Master-Programs.html

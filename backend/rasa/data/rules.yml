@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+  - rule: fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_default_fallback
+
+  - rule: out-of-scope
+    steps:
+      - intent: out_of_scope
+      - action: action_default_fallback

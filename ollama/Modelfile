@@ -1,0 +1,3 @@
+FROM marco/em_german_mistral_v01
+
+PARAMETER temperature 0.1

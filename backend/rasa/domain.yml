@@ -1,0 +1,415 @@
+version: "3.1"
+
+actions:
+  - action_correct_spelling
+  - action_default_fallback
+  - request_studiengang
+  - provide_general_studyplan_english
+  - provide_general_studyplan_german
+  - CorrectSpelling
+
+entities:
+  - studiengang:
+      type: text
+      examples:
+        # bachelor intents (english)
+        - architecture
+        - business administration
+        - ba
+        - business psychology
+        - bp
+        - civil engineering
+        - ce
+        - communication design
+        - cd
+        - computer engineering
+        - ce
+        - computer science
+        - cs
+        - informatic
+        - informatics
+        - creative engineering
+        - ce
+        - data science
+        - ds
+        - digital design and production
+        - digital design
+        - design and production
+        - ddp
+        - electrical engineering
+        - ee
+        - energy efficienct planning and building
+        - eepb
+        - energy planning
+        - planning and building of energy
+        - environmental process engineering
+        - environmental engineering
+        - epe
+        - industrial engineering
+        - ie
+        - information systems
+        - is
+        - interactive media
+        - im
+        - media
+        - international information systems
+        - iis
+        - international management
+        - im
+        - management
+        - international management and engineering
+        - international management engineering
+        - ime
+        - mechanical engineering
+        - Mechanical engineering
+        - me
+        - mechatronics
+        - mechatronic
+        - social work
+        - sw
+        - systems engineering
+        - se
+
+        # master intents (english)
+
+        - applied research
+        - architecture
+        - business information systems
+        - civil engineering
+        - computer science
+        - cs
+        - informatic
+        - informatics
+        - energy efficiency design
+        - e2d
+        - eed
+        - environmental process engineering
+        - epe
+        - environmental engineering
+        - human resource management
+        - hr management
+        - human resource
+        - hrm
+        - identity design
+        - id
+        - industrial safety and security
+        - interactive media systems
+        - interactive media
+        - ims
+        - international business and finance
+        - international finance
+        - international business
+        - finance
+        - it project and process management
+        - it project management
+        - project process management
+        - marketing management digital
+        - marketing management
+        - digital marketing
+        - mechanical engineering
+        - Mechanical enginnering
+        - me
+        - mechatronic systems
+        - mechatronics
+        - ms
+        - production engineering
+        - production
+        - pe
+        - project management civil engineering
+        - civil project management
+        - sustainibilty management
+        - taxation and accounting
+        - technology management
+        - transformation design
+
+        # bachelor intents (german)
+
+        - architektur
+        - betriebswirtschaft
+        - bwl
+        - wirtschaftspsychologie
+        - bauingeniurwesen
+        - kommunikationsdesign
+        - technische informatik
+        - ti
+        - tech it
+        - informatik
+        - creative engineering
+        - data science
+        - ds
+        - digitaler baumeister
+        - elektrotechnik
+        - energieeffizientes planen und bauen
+        - energieeffizientes planen
+        - energieffizientes bauen
+        - umwelt und verfahrenstechnik
+        - umwelt technik
+        - industrial engineering
+        - wirtschaftsinformatik
+        - medien
+        - internationales wirtschaftsinformatik
+        - international management
+        - internationales management
+        - internationales wirtschaftsingenieurwesen
+        - maschinenbau
+        - mechatronik
+        - soziale arbeit
+        - systems engineering
+
+        # master intents (german)
+
+        - angewandte forschung in den ingenieurwissenschaften
+        - angewandte forschung
+        - architektur
+        - wirtschaftsinformationssysteme
+        - bauingenieurwesen
+        - informatik
+        - energieeffizientes design
+        - umwelt und verfahrenstechnik
+        - umwelt
+        - human resource management
+        - hr management
+        - human resource
+        - hrm
+        - identity design
+        - id
+        - industrial Safety and Security
+        - interactive media systems
+        - ims
+        - international business und finance
+        - international business
+        - international finance
+        - finance
+        - it project and process management
+        - it project Management
+        - project process Management
+        - marketing management digital
+        - marketing management
+        - digital marketing
+        - mechanical engineering
+        - Mechanical engineering
+        - me
+        - mechatronic systems
+        - mechatronics
+        - ms
+        - production engineering
+        - production
+        - pe
+        - project management civil engineering
+        - civil project management
+        - sustainability management
+        - taxation and accounting
+        - technology management
+        - transformation design
+
+  - study_type:
+      type: text
+      examples:
+        - master's
+        - master
+        - masters
+        - bachelor's
+        - bachelor
+        - bachelors
+
+slots:
+  studiengang:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: studiengang
+
+  study_type:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: study_type
+
+intents:
+  ###-------------------------------------- general ----------------------------------------------------------------###
+  - general_studyplan
+  - general_studyplan_german
+  - out_of_scope
+
+  ###-------------------------------------- english  ----------------------------------------------------------------###
+  - greet
+  - university_map
+  - library_plan
+  - CCA_plan
+  - stud_intern_rep
+  - canteen_menu
+  - guidelines_bachelor
+  - guidelines_master
+  - german_exam_accredition
+  - crediting_grades
+
+  ###-------------------------------------- german ----------------------------------------------------------------###
+  - greet_german
+  - german_credit_grades
+  - german_uni_library_plan
+  - german_university_map
+  - german_CCA_plan
+  - german_stud_intern_rep
+  - german_canteen_menu
+  - german_guidelines_bachelor
+  - german_guidelines_master
+  - german_exam_accredition_de
+
+  ###-------------------------------------- special ----------------------------------------------------------------###
+
+  - study_type_choice
+  - study_programs
+  - danke
+  - thanks
+  - bye
+  - tschuess
+  - wrong
+  - falsch
+
+responses:
+  utter_starter:
+    - text: |
+        Hello, I am the chatbot of the Technical University of Applied Sciences Augsburg. I am here to answer your questions. How can I help you?
+
+  utter_university_map:
+    - text: |
+        Here is the map of the Technical University of Applied Sciences Augsburg: 
+        https://www.tha.de/Binaries/Binary_39833/THA-lageplan-2024-mit-avv-300-RGB.jpg
+        Find more Information here: https://www.tha.de/Service/Anfahrt-und-Lageplan.html
+
+  utter_library_plan:
+    - text: |
+        Here is the library map of the Technical University of Applied Sciences Augsburg:
+        https://www.tha.de/Binaries/Binary29187/bibliothekplan-2018-infoguide.png
+        Find more information here: https://www.tha.de/Bibliothek.html
+
+  utter_CCA_plan:
+    - text: |
+        Here is a map of where the campus card machines can be found:
+        https://www.tha.de/Binaries/Binary10258/Lageplan-CCA-Automaten.pdf
+        Find more information here: https://www.tha.de/en/IT-Services-Center/Campus-Card.html
+
+  utter_stud_intern_rep:
+    - text: |
+        Here you can find a list of all the internship representatives:
+        https://www.tha.de/Binaries/Binary28779/Praktikantenbeauftragte.pdf
+        Find more information here: https://www.tha.de/Praxissemester.html
+
+  utter_canteen_menu:
+    - text: |
+        You can find the canteen menu here:
+        https://www.tha.de/Service/Mensa-und-Cafeteria.html
+        Find more information here: https://studierendenwerk-augsburg.de/essen-trinken/mensen-cafeterien/augsburg/hs-augsburg/
+
+  utter_guidelines_bachelor:
+    - text: |
+        You can find the guidelines for bachelor degree applicants from abroad here:
+        https://www.tha.de/Binaries/Binary75109/Guidelines-Bachelor-Degree-Application-from-abroad-EN-2024.pdf
+        Find more information here: https://www.tha.de/en/Application/Bachelor-degree.html
+
+  utter_guidelines_master:
+    - text: |
+        You can find the guidelines for master degree applicants from abroad here:
+        https://www.tha.de/Binaries/Binary74937/Guidelines-Master-Degree-Application-from-Abroad-EN-2024.pdf
+        Find more information here: https://www.tha.de/en/International/International-Degree-Students/How-do-I-apply/Master.html#:~:text=You%20require%20a%20Bachelor%20degree,for%20the%20relevant%20Master%20program
+
+  utter_german_exam_accredition:
+    - text: |
+        You can find the accredited german language exams here:
+        https://www.tha.de/Binaries/Binary74940/Approved-German-language-exams-EN-2024.pdf
+        Find more information here: https://www.tha.de/en/International/German-as-a-Foreign-Language.html
+
+  utter_crediting_grades:
+    - text: |
+        Here you can find the form to transfer your grades from another university (abroad or in Germany):
+        https://www.tha.de/Binaries/Binary67374/recognition-of-study-and-examination-achievements.pdf
+        Find more information here: https://www.tha.de/en/Computer-Science/Grade-Recognition.html
+
+  utter_thanks:
+    - text: |
+        Glad I could help you! If you have any more questions, feel free to ask.
+
+  utter_goodbye:
+    - text: |
+        Goodbye. Thank you for chatting with me. Have a great day!
+
+  utter_wrong:
+    - text: |
+        I'm sorry I couldn't help you with your question. Maybe I didn't understand it properly or I couldn't find the right information. Could you please rephrase your question or ask a new one?
+
+
+  # ###########################################################################################################################################################
+  # ##--------------------------------------------------------  German intents start here   -----------------------------------------------------------------##
+  utter_starter_german:
+    - text: |
+        Hallo, ich bin der Chatbot der Technischen Hochschule Augsburg. Ich bin hier, um deine Fragen zu beantworten. Wie kann ich dir helfen?
+  
+  utter_german_credit_grades:
+    - text: |
+        Hier findest du das Formular zur Übertragung deiner Noten von einer anderen Universität oder Hochschule (im Ausland oder in Deutschland):
+        https://www.tha.de/Binaries/Binary67374/recognition-of-study-and-examination-achievements.pdf
+        Finde weitere Informationen hier: https://www.tha.de/de/Informatik/Note-Anerkennung.html
+
+  utter_german_uni_library_plan:
+    - text: |
+        Hier ist der Bibliotheksplan der THA:
+        https://www.tha.de/Binaries/Binary29187/bibliothekplan-2018-infoguide.png
+        Finde weitere Informationen hier: https://www.tha.de/Bibliothek.html
+
+  utter_german_university_map:
+    - text: |
+        Hier ist der Lageplan der THA:
+        https://www.tha.de/Binaries/Binary_39833/THA-lageplan-2024-mit-avv-300-RGB.jpg
+        Finde weitere Informationen hier: https://www.tha.de/Service/Anfahrt-und-Lageplan.html
+
+  utter_german_CCA_plan:
+    - text: |
+        Hier findest du die Campus Card Automaten:
+        https://www.tha.de/Binaries/Binary10258/Lageplan-CCA-Automaten.pdf
+        Finde weitere Informationen hier: https://www.tha.de/en/IT-Services-Center/Campus-Card.html
+
+  utter_german_stud_intern_rep:
+    - text: |
+        Hier findest du eine Liste aller Praktikumsbeauftragten der THA:
+        https://www.tha.de/Binaries/Binary28779/Praktikantenbeauftragte.pdf
+        Finde weitere Informationen hier: https://www.tha.de/Praxissemester.html
+
+  utter_german_canteen_menu:
+    - text: |
+        Die Speisekarte der Kantine findest du hier:
+        https://www.tha.de/Service/Mensa-und-Cafeteria.html
+        Finde weitere Informationen hier: https://studierendenwerk-augsburg.de/essen-trinken/mensen-cafeterien/augsburg/hs-augsburg/
+
+  utter_german_guidelines_bachelor:
+    - text: |
+        Hier ist der Leitfaden für Bachelor-Studienbewerber aus dem Ausland:
+        https://www.tha.de/Binaries/Binary75109/Guidelines-Bachelor-Degree-Application-from-abroad-EN-2024.pdf
+        Finde weitere Informationen finden Sie hier: https://www.tha.de/en/Application/Bachelor-degree.html
+
+  utter_german_guidelines_master:
+    - text: |
+        Hier ist der Leitfaden für Master-Studienbewerber aus dem Ausland:
+        https://www.tha.de/Binaries/Binary74937/Guidelines-Master-Degree-Application-from-Abroad-EN-2024.pdf
+        Finde weitere Informationen hier: https://www.tha.de/en/International/International-Degree-Students/How-do-I-apply/Master.html#:~:text=Sie%20erfordern%20einen%20Bachelor%20Abschluss,für%20den%20relevanten%20Master%20Studiengang
+
+  utter_german_exam_accredition_de:
+    - text: |
+        Die anerkannten Deutschprüfungen findest du hier:
+        https://www.tha.de/Binaries/Binary74940/Approved-German-language-exams-EN-2024.pdf
+        Finde weitere Informationen hier: https://www.tha.de/en/International/German-as-a-Foreign-Language.html
+
+  utter_danke:
+    - text: |
+        Schön, dass ich dir helfen konnte. Wenn du noch weitere Fragen hast, lass es mich gerne wissen.
+
+  utter_tschuess:
+    - text: |
+        Tschüss. Danke, dass du mit mir gechattet hast. Hab einen schönen Tag!
+
+  utter_falsch:
+    - text: |
+        Sorry, dass ich dir bei deiner Frage nicht helfen konnte. Entweder habe ich dich nicht richtig verstanden oder konnte die richtigen Informationen nicht finden. Du kannst gerne versuchen deine Frage etwas anders zu formulieren oder mich einfach etwas anderes fragen.
+
+session_config/st:
+session_expiration_time: 60
+carry_over_slots_to_new_session: true

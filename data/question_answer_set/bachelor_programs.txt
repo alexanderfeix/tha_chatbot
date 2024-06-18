@@ -1,0 +1,69 @@
+# Source: https://www.tha.de/en/Bachelor-Programs.html
+
+Q: What Bachelor programs are available at Technical University of Applied Sciences Augsburg?
+A: Technical University of Applied Sciences Augsburg offers a diverse range of Bachelor programs in fields such as technology, business, design, and social sciences. These programs prepare students for their careers in regional companies and beyond.
+
+Q: Can you tell me about the Bachelor program in Architecture?
+A: Certainly! The Architecture program leads to a Bachelor of Arts (B.A.) degree. It is available in both full-time and dual cooperative study formats, and the language of instruction is German. Students can start this program in the winter semester.
+
+Q: What about Business Administration?
+A: The Business Administration program leads to a Bachelor of Arts (B.A.) degree. It is offered in both full-time and dual cooperative study formats, with instruction in German. Students can begin this program in the winter semester.
+
+Q: Is there a Business Psychology program?
+A: Yes! The Business Psychology program leads to a Bachelor of Science (B.Sc.) degree. It is available in full-time mode and is taught in German. Students can start this program in the winter semester.
+
+Q: What is Creative Engineering all about?
+A: Creative Engineering is a unique program that combines both Bachelor of Arts (B.A.) and Bachelor of Engineering (B.Eng.) degrees. It is taught in German and starts in the winter semester.
+
+Q: Could you provide details about the Data Science program?
+A: Certainly! The Data Science program leads to a Bachelor of Science (B.Sc.) degree. It is taught in German and begins in the winter semester.
+
+Q: What languages are used in the Digitaler Baumeister program?
+A: The Digitaler Baumeister (Digital Construction Manager) program is taught in both German and English. It leads to a Bachelor of Engineering (B.Eng.) degree and starts in the winter semester.
+
+Q: Is there a program related to Electrical and Information Technology?
+A: Yes! The Electro and Information Technology (B.Eng.) program is planned to start from the winter semester 2024/25. It will be available in both full-time and dual cooperative study formats, with instruction in German.
+
+Q: How about the Informatik (Computer Science) program?
+A: The Informatik program leads to a Bachelor of Science (B.Sc.) degree. It is offered in full-time and dual cooperative study formats, with instruction in German. Students can start this program in the winter semester.
+
+Q: What are the language options for the International Management program?
+A: The International Management program is taught in both German and English. It leads to a Bachelor of Arts (B.A.) degree and starts in the winter semester.
+
+Q: Can you tell me about the Kommunikationsdesign (Communication Design) program?
+A: Certainly! The Kommunikationsdesign program leads to a Bachelor of Arts (B.A.) degree. It is taught in German and starts in the winter semester.
+
+Q: Is there a program related to Mechanical Engineering?
+A: Yes! The Mechanical Engineering program leads to a Bachelor of Engineering (B.Eng.) degree. It is available in both full-time and dual cooperative study formats, with instruction in German. Students can start this program in the winter semester.
+
+Q: What about Mechatronics?
+A: The Mechatronics program also leads to a Bachelor of Engineering (B.Eng.) degree. It is available in both full-time and dual cooperative study formats, with instruction in German. Students can start this program in the winter semester.
+
+Q: Are there any programs starting in the summer semester?
+A: Yes! The Orientation Year program is available in the summer semester. However, it does not lead to a specific degree.
+
+Q: What bachelor study programms are taught at the university?
+A: List of current courses:
+- Architecture (B.A.)
+- Business Administration (B.A.)
+- Business Psychology (B.Sc.)
+- Civil Engineering (B.Eng.)
+- Communication Design (B.A.)
+- Computer Engineering (B.Eng.)
+- Computer Science (B.Sc.)
+- Creative Engineering (B.A./B.Eng.)
+- Data Science (B.Sc.)
+- Digital.Design and Production (B.Eng.)
+- Electrical Engineering (B.Eng.)
+- Energy Efficient Planning and Building (B.Eng.)
+- Environmental and Process Engineering (B.Eng.)
+- Industrial Engineering (B.Eng.)
+- Information Systems (B.Sc.)
+- Interactive Media (B.A./B.Sc.)
+- International Information Systems (B.Sc.)
+- International Management (B.A.)
+- International Management and Engineering (B.Eng.)
+- Mechanical Engineering (B.Eng.)
+- Mechatronics (B.Eng.)
+- Social Work (B.A.)
+- Systems Engineering (B.Eng.)

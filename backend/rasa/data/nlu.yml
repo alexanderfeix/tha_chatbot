@@ -1,0 +1,2064 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hello there
+      - good morning
+      - good evening
+      - hey there
+      - let's go
+      - hey dude
+      - goodmorning
+      - goodevening
+      - good afternoon
+      - hi how are you
+      - hello how are you
+      - hi there
+      - hello how are you doing
+      - hi how are you doing
+      - good morning how are you
+
+  - intent: greet_german
+    examples: |
+      - Hey
+      - hallo
+      - guten morgen
+      - guten tag
+      - guten abend
+      - servus
+      - moin
+      - los geht's
+      - halli hello
+      - hallo wie geht es dir
+      - wie geht's
+      - hi wie geht's
+      - guten morgen wie geht es dir
+      - guten tag wie geht's
+
+
+  - intent: university_map
+    examples: |
+      - Where is the M Building located?
+      - Can you direct me to the J Building at Augsburg University of Applied Sciences?
+      - How do I find building W?
+      - Where can I locate the A Building at Augsburg University of Applied Sciences?
+      - Could you please point me towards the cafeteria?
+      - I'm looking for the cafeteria. Can you guide me there?
+      - I need to locate the Campus at Brunnenlech. Can you assist?
+      - How do I get to the Campus at Rotes Tor?
+      - Where is the nearest parking lot?
+      - Is there a map of the university available?
+      - I'd like to see the map of THA. Where can I find it?
+      - Are there any tram stations nearby?
+      - Which building houses the computer science department?
+      - Where can I find the nearest restroom?
+      - Is there a specific entrance for visitors?
+      - Where is the administration building?
+      - Where can I ind the network room on campus?
+      - Can you provide information about the nearest public transportation options?
+      - Do you know where the student union office is located?
+      - where is the m building
+      - where is the j building
+      - where is the w building?
+      - location plan
+      - university map
+      - map of THA
+      - Show me the map of the university
+      - Show me a plan of the university
+      - Show me the map of the THA
+      - Where is building F?
+
+
+  - intent: library_plan
+    examples: |
+      - Can you tell me where the library is located?
+      - Where can I find the group rooms within the library?
+      - Provide me a map for the library
+      - How many group study rooms are available in the library, and how can I reserve them?
+      - Can I find scanners within the library to digitize documents or pages from books?
+      - Are there dedicated areas for photocopying materials, and what are the associated costs?
+      - Can I easily locate different sections within the library for various types of books or resources?
+      - Where can I find a CCA vending machine in the library?
+      - Where are the photocopiers at the library?
+      - Where are scanners located in the library?
+      - Where can i find scanners?
+      - where is the library
+      - where is the library?
+      - give me a map for the library
+      - library map
+
+  - intent: CCA_plan
+    examples: |
+      - Are there any campus card machine locations that are known to be less crowded?
+      - Can I use the campus card machines to check my card balance as well as reload it?
+      - Are there any campus card machine locations that offer additional services or amenities nearby?
+      - Are there specific operating hours for the campus card machines, or are they available 24/7?
+      - Are there any campus card machine locations that are accessible from multiple entrances to the campus?
+      - Are there any campus card machine locations that are specifically designated for certain student groups or departments?
+      - Can I access the campus card machine locations from off-campus locations, such as nearby public transportation stops?
+      - Are there any campus card machine locations that offer multilingual instructions or support?
+      - Are there any campus card machine locations that offer additional features, such as printing or photocopying services?
+      - Are there any campus card machine locations that are located near popular student hangout spots or study areas?
+      - Are there any campus card machine locations that offer contactless payment options for added convenience?
+      - Can you provide directions to the campus card machines?
+      - Do you have any tips for finding the campus card machines?
+      - where can i validate my campus card?
+      - where are the campus card machines?
+
+  - intent: stud_intern_rep
+    examples: |
+      - Who is the internship representative for architecture?
+      - Who is the internship representative for Civil engineering?  
+      - Who is the internship representative for Business administration?
+      - Who is the internship representative for Electrical engineering?
+      - Who is the internship representative for Energy-efficient planning and construction?
+      - Who is the internship representative for Computer science?
+      - Who is the internship representative for Interactive media?
+      - Who is the internship representative for International Management
+      - Who is the internship representative for International Industrial Engineering?
+      - Who is the internship representative for Communication design?
+      - Who is the internship representative for Mechanical Engineering?
+      - Who is the internship representative for Mechatronics?
+      - Who is the internship representative for Social Work? 
+      - Who is the internship representative for System Engineering?
+      - Who is the internship representative for Computer Engineering?
+      - Who is the internship representative for Environmental and process engineering?
+      - Who is the internship representative for Technical Computer science?
+      - Who is the internship representative for Business Computer science? 
+      - Who is the internship representative for International Informaton Sytems?
+      - Who is the internship representative for Business Psychology?
+      - Who should I contact for internship information?
+      - Who can I contact being a student to look up for internships?
+      - Where can I find information regarding internship applications?
+      - who is responsible for an internship?
+
+  - intent: canteen_menu
+    examples: |
+      - Where can I find the canteen menu?
+      - What is there for food today in the canteen?
+      - Where can I look for the menu in the canteen?
+      - What food do they have in the canteen today?   
+      - Where can I find today's canteen menu?
+      - What's on the menu for food in the canteen today?
+      - Where can I locate the daily menu in the canteen?
+      - What food options are available in the canteen for today?
+      - Is there a place where I can check the canteen menu?
+      - What's being served at the canteen for today's meals?
+      - Where can I access the menu for today's offerings in the canteen?
+      - Can you direct me to where I can view the canteen's menu?
+      - Could you guide me on where to find today's canteen menu?
+      - What dishes are being served at the canteen for today's meals?
+      - what is the mensa menu
+      - what can i eat today?
+      - what is on the menu today?
+      - canteen menu
+      - mensa menu
+
+  - intent: guidelines_bachelor
+    examples: |
+      - What are the general academic requirements for applying to bachelor programs at Augsburg University of Applied Sciences?
+      - Can you provide a list of documents typically needed for a bachelor application at Augsburg University of Applied Sciences?
+      - How do I determine if I'm eligible for a specific bachelor program at Augsburg University of Applied Sciences?
+      - What are the deadlines for bachelor program applications at Augsburg University of Applied Sciences?
+      - Are standardized tests required for bachelor program applications at Augsburg University of Applied Sciences?
+      - Can you suggest bachelor programs at Augsburg University of Applied Sciences that align with my interests and qualifications?
+      - Are there specific GPA or grade requirements for bachelor program applications at Augsburg University of Applied Sciences?
+      - What should I include in my personal statement for a bachelor program application at Augsburg University of Applied Sciences?
+      - Do bachelor programs at Augsburg University of Applied Sciences typically require letters of recommendation?
+      - Are scholarships or financial aid available for bachelor programs at Augsburg University of Applied Sciences?
+      - How long does it usually take to hear back after submitting a bachelor program application to Augsburg University of Applied Sciences?
+      - Can I apply to multiple bachelor programs at Augsburg University of Applied Sciences?
+      - Is there an application fee for bachelor programs at Augsburg University of Applied Sciences?
+      - What are some common mistakes to avoid when filling out a bachelor program application at Augsburg University of Applied Sciences?
+      - Can I transfer credits from another institution if I'm accepted into a bachelor program at Augsburg University of Applied Sciences?
+      - Are interviews or additional assessments required for bachelor program applications at Augsburg University of Applied Sciences?
+      - How can I track the progress of my bachelor program application at Augsburg University of Applied Sciences?
+      - Do bachelor programs at Augsburg University of Applied Sciences typically require a portfolio for certain majors like art or design?
+      - Can international students apply for bachelor programs at Augsburg University of Applied Sciences?
+      - How can international students apply for bachelor programs?
+
+  - intent: guidelines_master
+    examples: |
+      - What are the admission requirements for master's programs at Augsburg University of Applied Sciences?
+      - Can you provide information on the application deadlines for master's programs?
+      - Does the university offer early admission or rolling admissions for master's programs?
+      - Is there a specific GPA or standardized test score requirement for admission to master's programs?
+      - Are there any additional materials or documents required for the application process?
+      - How many letters of recommendation are required for master's program applications?
+      - What is the application fee, and are there any waivers available?
+      - Can international students apply, and what are the specific requirements for them?
+      - Are there any specific essay prompts for the application?
+      - How can applicants check the status of their application after submission?
+      - Is there an interview process for certain programs or scholarships?
+      - What types of financial aid or scholarships are available?
+      - Are there any specific requirements or deadlines for applying to specialized tracks within programs?
+      - Can applicants apply as transfer students, and what are the requirements for transfer admission?
+      - Are there resources or assistance available for first-generation college students applying?
+      - Are there any specific requirements for homeschooled applicants?
+      - What are the criteria for evaluating work experience or relevant professional background?
+      - Can applicants apply to multiple programs, and if so, how?
+      - Are there any specific prerequisites or coursework requirements?
+      - Is there an application portal or platform applicants should use to apply online?
+      - How can applicants apply for master's programs?
+
+  - intent: german_exam_accredition
+    examples: |
+      - What German language exams are recognized by the university for admission purposes?
+      - Can you provide information on the specific level of German proficiency required for admission to the university?
+      - Which German language exams are accepted as proof of language proficiency for international students?
+      - Are there any minimum scores or levels required for each accepted German language exam?
+      - Do you offer German language courses or exams for students who need to improve their language skills before admission?
+      - Can you recommend any resources or study materials for preparing for the recognized German language exams?
+      - Are there exemptions from the German language proficiency requirement for certain applicants?
+      - How can I submit my German language exam scores as part of my application?
+      - Are there any specific deadlines for submitting German language exam scores for admission consideration?
+      - Is there a language proficiency requirement for specific programs or faculties within the university?
+      - Are there any additional language proficiency tests required for non-German-speaking applicants besides the recognized German exams?
+      - Can I take a German language exam after submitting my application, and if so, how will it affect my admission process?
+      - Are there any opportunities for language proficiency testing on-campus or through university-affiliated language centers?
+      - Do you accept language certificates other than German language exams for demonstrating proficiency, and if so, which ones?
+      - How do I know if my current German language proficiency meets the university's requirements for admission?
+      - Are there any scholarships or special programs available for students who excel in German language exams?
+      - Can I retake a German language exam if I don't meet the required level on my first attempt?
+      - Are there any language proficiency requirements specifically for certain fields of study or programs within the university?
+      - Can you provide information on the validity period of German language exam scores for admission purposes?
+      - Where can I find more detailed information about the recognized German language exams and their requirements for admission to the University?
+
+  - intent: crediting_grades
+    examples: |
+      - How does the process of crediting grades or transferring credits work at this university?
+      - What documentation or information do I need to provide to transfer credits from a different university within the same country?
+      - Are there specific criteria for evaluating and accepting transferred credits from other universities?
+      - Can you provide information on the maximum number of credits that can be transferred from another university?
+      - Do you have any specific guidelines or requirements for transferring credits from universities in different countries?
+      - Are there any restrictions on the types of courses or programs from which credits can be transferred?
+      - How long does the credit transfer process typically take?
+      - Is there a fee associated with transferring credits, and if so, how much is it?
+      - Are there any deadlines for applying to transfer credits for an upcoming semester?
+      - Can I transfer credits from courses I completed at the same university but in a different program or department?
+      - Are there specific GPA requirements for transferred credits to be accepted?
+      - Do you offer any assistance or guidance to students during the credit transfer process?
+      - Can I transfer credits earned from online courses or distance learning programs?
+      - What is the procedure for appealing a decision regarding the acceptance of transferred credits?
+      - Are there any limitations on the age of the credits that can be transferred?
+      - Do you have articulation agreements with other universities or institutions to facilitate credit transfers?
+      - Can I transfer credits earned from a university that operates on a different academic calendar or system?
+      - How will transferred credits appear on my academic transcript?
+      - Are there any specific requirements for courses to be considered equivalent for credit transfer purposes?
+      - Where can I find more detailed information about the credit transfer process and requirements for this university?
+      - How can I get my grades credited?
+      - Can i transfer my grades?
+      - Can i transfer my grades from another university?
+      - How can I transfer my grades?
+      - Can i transfer my ECTS?
+
+  ####--------------------------------------------------------  German intents start here   -----------------------------------------------------------------##
+
+  - intent: german_credit_grades
+    examples: |
+      - Wie funktioniert der Prozess der Anerkennung von Noten oder der Übertragung von Credits an dieser Universität?
+      - Welche Dokumentation oder Informationen muss ich bereitstellen, um Credits von einer anderen Universität im selben Land zu übertragen?
+      - Gibt es spezifische Kriterien für die Bewertung und Annahme übertragener Credits von anderen Universitäten?
+      - Kannst du Informationen zur maximalen Anzahl von Credits bereitstellen, die von einer anderen Universität übertragen werden können?
+      - Haben Sie spezifische Richtlinien oder Anforderungen für die Übertragung von Credits von Universitäten in verschiedenen Ländern?
+      - Gibt es Einschränkungen hinsichtlich der Arten von Kursen oder Programmen, aus denen Credits übertragen werden können?
+      - Wie lange dauert der Prozess der Übertragung von Credits in der Regel?
+      - Muss eine Gebühr für die Übertragung von Credits bezahlt werden, und wenn ja, wie hoch ist sie?
+      - Gibt es Fristen für die Beantragung der Übertragung von Credits für ein kommendes Semester?
+      - Kann ich Credits von Kursen übertragen, die ich an derselben Universität, aber in einem anderen Programm oder Fachbereich abgeschlossen habe?
+      - Gibt es spezifische GPA-Anforderungen, damit übertragene Credits akzeptiert werden?
+      - Bieten Sie den Studierenden während des Prozesses der Übertragung von Credits Unterstützung oder Anleitung an?
+      - Kann ich Credits von Online-Kursen oder Fernstudienprogrammen übertragen?
+      - Wie ist das Verfahren für die Anfechtung einer Entscheidung zur Akzeptanz von übertragenen Credits?
+      - Gibt es Einschränkungen hinsichtlich des Alters der übertragenen Credits?
+      - Haben Sie Artikulationsvereinbarungen mit anderen Universitäten oder Institutionen, um die Übertragung von Credits zu erleichtern?
+      - Kann ich Credits von einer Universität übertragen, die nach einem anderen akademischen Kalender oder System arbeitet?
+      - Wie werden übertragene Credits auf meinem Zeugnis erscheinen?
+      - Gibt es spezifische Anforderungen, damit Kurse als äquivalent für die Zwecke der Credit-Übertragung angesehen werden?
+      - Wo finde ich detailliertere Informationen zum Prozess der Credit-Übertragung und den Anforderungen für diese Universität?
+      - Wie kann ich meine Noten anrechnen lassen?
+      - Wie kann ich meine Noten übertragen?
+
+  - intent: german_uni_library_plan
+    examples: |
+      - Kannst du mir einen Plan der Bibliothek zur Verfügung stellen?
+      - Wie viele Gruppenarbeitsräume gibt es in der Bibliothek, und wie kann ich sie reservieren?
+      - Gibt es in der Bibliothek Scanner?
+      - Kann ich in der Bibliothek drucken?
+      - Wo kann ich einen CCA-Automaten in der Bibliothek finden?
+      - Wo befinden sich die Scanner in der Bibliothek?
+      - Kann ich in der Bibliothek kopieren?
+      - Wo kann ich in der Bibliothek drucken?
+      - Gibt is in der Bibliothek Gruppenräume?
+      - Wie viele Sitzplätze gibt es in der Bibliothek?
+      - Wie ist die Bibliothek aufgebaut?
+      - Bibliotheksplan
+      - Wie sieht die Bibliothek aus?
+
+  - intent: german_university_map
+    examples: |
+      - Wo befindet sich das M-Gebäude?
+      - Kannst du mir den Weg zum J-Gebäude an der Hochschule Augsburg weisen?
+      - Wie finde ich das W-Gebäude?
+      - Wo kann ich das A-Gebäude an der Hochschule Augsburg finden?
+      - Kannst du mir bitte den Weg zur Cafeteria zeigen?
+      - Ich suche die Cafeteria. Kannst du mich dorthin führen?
+      - Ich muss den Campus am Brunnenlech finden. Kannst du mir helfen?
+      - Wie komme ich zum Campus am Roten Tor?
+      - Wo ist der nächste Parkplatz?
+      - Gibt es einen Plan der Hochschule Augsburg?
+      - Gibt es in der Nähe Straßenbahnstationen?
+      - Kannst du mir sagen, wo die Bibliothek ist?
+      - Wie komme ich zum Studentenservicebüro?
+      - Wo finde ich die nächste Toilette?
+      - Gibt es einen speziellen Eingang für Besucher?
+      - Weißt du wo sich die Hauptvorlesungssäle befinden?
+      - Wo befindet sich das Verwaltungsgebäude?
+      - Wo finde ich das Rechenzentrum auf dem Campus?
+      - Wie erreiche ich die nächsten öffentlichen Verkehrsmittel?
+      - Weißt du wo sich das Büro der Studentenvertretung befindet?
+      - Was ist die nächste Straßenbahnstation?
+      - Wo ist die nächste tram?
+      - Lageplan der THA
+      - Welche Gebäude gibt es am Campus Rotes Tor?
+      - Welche Gebäude gibt es am Campus Brunnenlech?
+      - Welche Gebäude gibt es am Campus
+      - Welche Gebäude sind am campus Rotes Tor
+      - Welche Gebäude sind am campus brunnenlech
+      - Was ist am Campus Rotes Tor?
+      - Was ist am Campus Brunnenlech?
+      - Zeig mir die Karte der Hochschule
+      - Zeig mir die Karte the THA
+      - Kennst du den Lageplan der THA?
+      - Kennst du den Lageplan der Hochschule?
+      - Wo finde ich Campus am Roten Tor?
+      - Wo ist das M Gebäude?
+      - Zeig mit den Lageplan
+  
+  
+
+  - intent: german_CCA_plan
+    examples: |
+      - Gibt es Campus-Card Automaten, die bekannt dafür sind, weniger überfüllt zu sein?
+      - An welchen Campus Card Automaten ist am wenigsten los?
+      - Kann ich die Campus-Kartenautomaten verwenden, um mein Kartenkonto zu überprüfen und es aufzuladen?
+      - Gibt es spezifische Öffnungszeiten für die Campus Card Automaten oder sind sie rund um die Uhr verfügbar?
+      - Sind einige Campus-Kartenautomatenstandorte von mehreren Eingängen zum Campus aus zugänglich?
+      - Sind bestimmte Campus-Kartenautomatenstandorte speziell für bestimmte Studentengruppen oder Abteilungen vorgesehen?
+      - Kann ich auf die Standorte der Campus-Kartenautomaten von außerhalb des Campus zugreifen?
+      - Bieten Campus-Kartenautomaten mehrere Sprachen an?
+      - Bieten einige Campus-Kartenautomatenstandorte zusätzliche Funktionen wie Druck- oder Kopierservices an?
+      - Liegen einige Campus-Kartenautomatenstandorte in der Nähe beliebter Treffpunkte oder Studienbereiche für Studenten?
+      - Kann ich die Standorte der Campus-Kartenautomaten über die mobile App oder die Website der Universität finden?
+      - Bieten einige Campus-Kartenautomatenstandorte kontaktlose Zahlungsoptionen an?
+      - Gibt es in der Nähe der Campus-Kartenautomaten bestimmte Gebäude oder Geländepunkte, um sie leichter zu finden?
+      - Kannst du mir Wegbeschreibungen zu den Campus-Kartenautomaten geben?
+      - Haben Sie Tipps, um die Campus-Kartenautomaten zu finden?
+      - Wo kann ich meine Campus-Karte aufladen?
+      - Wo finde ich die Campus-Kartenautomaten?
+      - Wo sind Kartenautomaten?
+      - Wann sind die Öffnungszeiten der Campus Card Automaten?
+      - Wo finde ich die Campus Card Automaten?
+      - Wo sind die Campus Card Validierer?
+
+
+  - intent: german_stud_intern_rep
+    examples: |
+      - Wer ist der Praktikumsbeauftragte für Architektur?
+      - Wer ist der Praktikumsbeauftragte für Bauingenieurwesen?  
+      - Wer ist der Praktikumsbeauftragte für Betriebswirtschaftslehre?
+      - Wer ist der Praktikumsbeauftragte für Elektrotechnik?
+      - Wer ist der Praktikumsbeauftragte für Energieeffizientes Planen und Bauen?
+      - Wer ist der Praktikumsbeauftragte für Informatik?
+      - Wer ist der Praktikumsbeauftragte für Interaktive Medien?
+      - Wer ist der Praktikumsbeauftragte für Internationales Management?
+      - Wer ist der Praktikumsbeauftragte für Internationales Wirtschaftsingenieurwesen?
+      - Wer ist der Praktikumsbeauftragte für Kommunikationsdesign?
+      - Wer ist der Praktikumsbeauftragte für Maschinenbau?
+      - Wer ist der Praktikumsbeauftragte für Mechatronik?
+      - Wer ist der Praktikumsbeauftragte für Soziale Arbeit? 
+      - Wer ist der Praktikumsbeauftragte für Systemtechnik?
+      - Wer ist der Praktikumsbeauftragte für Technische Informatik?
+      - Wer ist der Praktikumsbeauftragte für Umwelt- und Verfahrenstechnik?
+      - Wer ist der Praktikumsbeauftragte für Technische Informatik?
+      - Wer ist der Praktikumsbeauftragte für Wirtschaftsinformatik? 
+      - Wer ist der Praktikumsbeauftragte für Internationale Informationssysteme?
+      - Wer ist der Praktikumsbeauftragte für Wirtschaftspsychologie?
+      - An wen kann ich mich wenden, um Informationen über Praktika zu erhalten?
+      - An wen kann ich mich als Student wenden, um nach Praktika zu suchen?
+      - Wo finde ich Informationen zu Bewerbungen für Praktika?
+
+  - intent: german_canteen_menu
+    examples: |
+      - Wo kann ich den Speiseplan der Mensa finden?
+      - Was gibt es heute zum Essen in der Mensa?
+      - Wo kann ich den Speiseplan der Mensa einsehen?
+      - Welches Essen gibt es heute in der Mensa?   
+      - Wo finde ich den heutigen Speiseplan der Mensa?
+      - Was steht heute auf dem Speiseplan in der Mensa?
+      - Wo finde ich das Tagesmenü in der Mensa?
+      - Welche Essensangebote gibt es heute in der Mensa?
+      - Was gibt es heute in der Mensa zu essen?
+      - Kannst du mir sagen, wo ich die Speisekarte der Mensa finden kann?
+      - Kannst du mir sagen, wo ich das heutige Mensamenü finden kann?
+      - Welche Gerichte werden heute in der Mensa serviert?
+      - Was gibt es heute zu essen?
+      - Was steht heute auf dem Speiseplan?
+      - Was gibt es heute in der Mensa?
+      - Was gibt es heute in der Kantine?
+
+  - intent: german_guidelines_bachelor
+    examples: |
+      - Was sind die allgemeinen akademischen Anforderungen für die Bewerbung um Bachelor-Studiengänge an der Hochschule Augsburg?
+      - Kannst du eine Liste der üblicherweise benötigten Dokumente für eine Bachelor-Bewerbung an der Hochschule Augsburg bereitstellen?
+      - Wie kann ich feststellen, ob ich für einen bestimmten Bachelor-Studiengang an der Hochschule Augsburg zugelassen werde?
+      - Was sind die Fristen für Bewerbungen für Bachelor-Studiengänge an der Hochschule Augsburg?
+      - Sind standardisierte Tests für Bachelor-Bewerbungen an der Hochschule Augsburg erforderlich?
+      - Kannst du Bachelor-Studiengänge an der Hochschule Augsburg vorschlagen, die mit meinen Interessen und Qualifikationen übereinstimmen?
+      - Gibt es spezifische GPA- oder Notenanforderungen für Bachelor-Bewerbungen an der Hochschule Augsburg?
+      - Was sollte ich in meinem persönlichen Statement für eine Bachelor-Bewerbung an der Hochschule Augsburg einschließen?
+      - Erfordern Bachelor-Studiengänge an der Hochschule Augsburg typischerweise Empfehlungsschreiben?
+      - Stehen Stipendien oder Finanzhilfen für Bachelor-Studiengänge an der Hochschule Augsburg zur Verfügung?
+      - Wie lange dauert es normalerweise, bis man nach Einreichung einer Bewerbung für einen Bachelor-Studiengang an der Hochschule Augsburg eine Rückmeldung erhält?
+      - Kann ich mich für mehrere Bachelor-Studiengänge an der Hochschule Augsburg bewerben?
+      - Fällt für Bachelor-Studiengänge an der Hochschule Augsburg eine Bewerbungsgebühr an?
+      - Welche häufigen Fehler sollte man vermeiden, wenn man eine Bewerbung für einen Bachelor-Studiengang an der Hochschule Augsburg ausfüllt?
+      - Kann ich Credits von einer anderen Einrichtung übertragen, wenn ich für einen Bachelor-Studiengang an der Hochschule Augsburg zugelassen werde?
+      - Sind Interviews oder zusätzliche Bewertungen für Bachelor-Bewerbungen an der Hochschule Augsburg erforderlich?
+      - Wie kann ich den Fortschritt meiner Bachelor-Bewerbung an der Hochschule Augsburg verfolgen?
+      - Erfordern Bachelor-Studiengänge an der Hochschule Augsburg in der Regel ein Portfolio für bestimmte Studiengänge wie Kunst oder Design?
+      - Können internationale Studierende sich für Bachelor-Studiengänge an der Hochschule Augsburg bewerben?
+      - Wie können sich internationale Studenten ich für Bachelor-Studiengänge bewerben?
+      - Brauche ich als internationaler Student ein Empfehlungsschreiben?
+
+  - intent: german_guidelines_master
+    examples: |
+      - Was sind die Zulassungsvoraussetzungen für Master-Programme an der Hochschule Augsburg?
+      - Kannst du Informationen zu den Bewerbungsfristen für Master-Programme bereitstellen?
+      - Bietet die Universität eine frühzeitige Zulassung oder rollende Zulassungen für Master-Programme an?
+      - Gibt es spezifische GPA- oder standardisierte Testanforderungen für die Zulassung zu Master-Programmen?
+      - Sind zusätzliche Materialien oder Dokumente für den Bewerbungsprozess erforderlich?
+      - Wie viele Empfehlungsschreiben werden für Master-Bewerbungen benötigt?
+      - Wie hoch ist die Bewerbungsgebühr, und gibt es Gebührenermäßigungen?
+      - Können internationale Studierende sich bewerben, und welche spezifischen Anforderungen gelten für sie?
+      - Gibt es spezifische Aufsatzthemen für die Bewerbung?
+      - Wie können Bewerber den Status ihrer Bewerbung nach Einreichung überprüfen?
+      - Gibt es einen Interviewprozess für bestimmte Programme oder Stipendien?
+      - Welche Arten von finanzieller Unterstützung oder Stipendien stehen zur Verfügung?
+      - Gibt es spezifische Anforderungen oder Fristen für die Bewerbung für spezialisierte Tracks innerhalb von Programmen?
+      - Können Bewerber sich als Transferstudierende bewerben, und welche Anforderungen gelten für die Zulassung als Transferstudierende?
+      - Gibt es Ressourcen oder Unterstützung für Erstgenerationenstudierende, die sich bewerben?
+      - Gibt es spezifische Anforderungen für Bewerber, die zu Hause unterrichtet wurden?
+      - Was sind die Kriterien zur Bewertung von Berufserfahrung oder relevantem beruflichem Hintergrund?
+      - Können Bewerber sich für mehrere Programme bewerben, und wenn ja, wie?
+      - Gibt es spezifische Voraussetzungen oder Kursanforderungen?
+      - Gibt es ein Bewerbungsportal oder eine Plattform, die Bewerber für die Online-Bewerbung nutzen sollten?
+      - Wie können sich international Bewerber für Master-Programme bewerben?
+
+  - intent: german_exam_accredition_de
+    examples: |
+      - Welche Deutschprüfungen werden von der Universität für die Zulassung anerkannt?
+      - Kannst du Auskunft darüber geben, welches Niveau an Deutschkenntnissen für die Zulassung an der Hochschule konkret erforderlich ist?
+      - Welche Deutschprüfungen werden als Nachweis von Sprachkenntnissen für internationale Studierende anerkannt?
+      - Gibt es eine Mindestpunktzahl oder ein Mindestniveau für jede anerkannte Deutschprüfung?
+      - Bieten Sie Deutschkurse oder Prüfungen für Studierende an, die ihre Sprachkenntnisse vor der Zulassung verbessern müssen?
+      - Kannst du Ressourcen oder Lernmaterialien zur Vorbereitung auf die anerkannten Deutschprüfungen empfehlen?
+      - Gibt es für bestimmte Studienbewerber Ausnahmen von den Deutschkenntnissen?
+      - Wie kann ich meine Ergebnisse der Deutschprüfung als Teil meiner Bewerbung einreichen?
+      - Gibt es bestimmte Fristen für die Einreichung der Ergebnisse der Deutschprüfung für die Zulassung?
+      - Gibt es für bestimmte Studiengänge oder Fakultäten an der Universität eine Sprachvoraussetzung?
+      - Sind für nicht-deutschsprachige Bewerber neben den anerkannten Deutschprüfungen zusätzliche Sprachtests erforderlich?
+      - Kann ich nach meiner Bewerbung eine Deutschprüfung ablegen, und wenn ja, wie wirkt sich das auf mein Zulassungsverfahren aus?
+      - Gibt es die Möglichkeit, Sprachprüfungen auf dem Campus oder in den universitätseigenen Sprachzentren abzulegen?
+      - Werden andere Sprachzertifikate als Deutschprüfungen zum Nachweis der Kenntnisse akzeptiert, und wenn ja, welche?
+      - Woher weiß ich, ob meine derzeitigen Deutschkenntnisse den Zulassungsvoraussetzungen der Universität entsprechen?
+      - Gibt es Stipendien oder spezielle Programme für Studierende, die in Deutschprüfungen besonders gut abschneiden?
+      - Kann ich eine Deutschprüfung wiederholen, wenn ich beim ersten Versuch nicht das erforderliche Niveau erreiche?
+      - Gibt es für bestimmte Studienfächer oder Studiengänge an der Universität besondere Anforderungen an die Sprachkenntnisse?
+      - Kannst du Auskunft über die Gültigkeitsdauer von Deutschtests für die Zulassung geben?
+      - Wo finde ich nähere Informationen zu den anerkannten Deutschprüfungen und deren Voraussetzungen für die Zulassung an der Universität?
+      - Brauche ich einen Sprachtest über Deutschkenntnisse für die Zulassung?
+
+  #### -------------------------------------------------- General intents ------------------------------------------------------------ ####
+
+  - intent: general_studyplan
+    examples: |
+      - can you give me my study plan
+      - I would like to have my study plan
+      - could you please tell me what my study plan is
+      - I need my study plan
+      - I am looking for my study plan
+      - I would like to have a look at my study plan
+      - I wanna see my study plan
+      - I would like to have a look at the study plan of my study course
+      - I would like to know what my study plan is
+      - can you show me my study plan
+      - can you give me my study plan
+      - can you provide me with my study plan
+      - I need to have my study plan
+      - I would like to have my study plan now
+      - I am looking for the study plan of my study course
+      - I am looking for my study plan
+      - I need to have a look at my study plan
+      - I need to see my study plan
+      - could you please provide me with the study plan of my course
+      - I need the study plan of my program
+      - can you provide the study plan of my program
+      - I wanna see my study plan
+      - i wanna have my study plan please
+      - study plan
+      - I would like to have the study plan for [architecture](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [business administration](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ba](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [business psychology](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [bp](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [civil engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ce](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [communication design](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [cd](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [computer engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [computer science](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [cs](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [informatic](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [informatics](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [creative engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [data science](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ds](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [digital design and production](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [digital design](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [design and production](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ddp](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [electrical engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ee](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [energy efficient planning and building](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [eepb](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [energy planning](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [planning and building of energy](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [environmental process engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [environmental engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [epe](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [industrial engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ie](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [information systems](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [is](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [interactive media](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [im](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [media](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [international information systems](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [iis](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [international management](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [management](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [international management and engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [ime](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [mechanical engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [Mechanical engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [me](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [mechatronics](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [social work](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [sw](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [systems engineering](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [se](studiengang) [bachelor](study_type)
+      - I would like to have the study plan for [applied research](studiengang) [masters](study_type)
+      - I would like to have the study plan for [architecture](studiengang) [masters](study_type)
+      - I would like to have the study plan for [business information systems](studiengang) [masters](study_type)
+      - I would like to have the study plan for [civil engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [computer science](studiengang) [masters](study_type)
+      - I would like to have the study plan for [cs](studiengang) [masters](study_type)
+      - I would like to have the study plan for [informatic](studiengang) [masters](study_type)
+      - I would like to have the study plan for [informatics](studiengang) [masters](study_type)
+      - I would like to have the study plan for [energy efficiency design](studiengang) [masters](study_type)
+      - I would like to have the study plan for [e2d](studiengang) [masters](study_type)
+      - I would like to have the study plan for [eed](studiengang) [masters](study_type)
+      - I would like to have the study plan for [environmental process engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [epe](studiengang) [masters](study_type)
+      - I would like to have the study plan for [environmental engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [human resource management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [hr management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [human resource](studiengang) [masters](study_type)
+      - I would like to have the study plan for [hrm](studiengang) [masters](study_type)
+      - I would like to have the study plan for [identity design](studiengang) [masters](study_type)
+      - I would like to have the study plan for [id](studiengang) [masters](study_type)
+      - I would like to have the study plan for [industrial safety and security](studiengang) [masters](study_type)
+      - I would like to have the study plan for [interactive media systems](studiengang) [masters](study_type)
+      - I would like to have the study plan for [ims](studiengang) [masters](study_type)
+      - I would like to have the study plan for [international business and finance](studiengang) [masters](study_type)
+      - I would like to have the study plan for [international finance](studiengang) [masters](study_type)
+      - I would like to have the study plan for [international business](studiengang) [masters](study_type)
+      - I would like to have the study plan for [finance](studiengang) [masters](study_type)
+      - I would like to have the study plan for [it project and process management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [it project management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [project process management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [marketing management digital](studiengang) [masters](study_type)
+      - I would like to have the study plan for [marketing management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [digital marketing](studiengang) [masters](study_type)
+      - I would like to have the study plan for [mechanical engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [Mechanical engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [me](studiengang) [masters](study_type)
+      - I would like to have the study plan for [mechatronic systems](studiengang) [masters](study_type)
+      - I would like to have the study plan for [mechatronics](studiengang) [masters](study_type)
+      - I would like to have the study plan for [ms](studiengang) [masters](study_type)
+      - I would like to have the study plan for [production engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [production](studiengang) [masters](study_type)
+      - I would like to have the study plan for [pe](studiengang) [masters](study_type)
+      - I would like to have the study plan for [project management civil engineering](studiengang) [masters](study_type)
+      - I would like to have the study plan for [civil project management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [sustainability management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [taxation and accounting](studiengang) [masters](study_type)
+      - I would like to have the study plan for [technology management](studiengang) [masters](study_type)
+      - I would like to have the study plan for [transformation design](studiengang) [masters](study_type)
+      - could you tell me my study plan for [architecture](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [business administration](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ba](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [business psychology](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [bp](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [civil engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ce](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [communication design](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [cd](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [computer engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ce](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [computer science](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [cs](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [informatic](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [informatics](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [creative engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ce](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [data science](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ds](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [digital design and production](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [digital design](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [design and production](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ddp](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [electrical engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ee](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [energy efficienct planning and building](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [eepb](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [energy planning](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [planning and building of energy](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [environmental process engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [environmental engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [epe](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [industrial engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ie](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [information systems](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [is](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [interactive media](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [im](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [media](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [international information systems](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [iis](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [international management](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [im](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [management](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [international management and engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [international management engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [ime](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [mechanical engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [Mechanical engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [me](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [mechatronics](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [mechatronic](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [social work](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [sw](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [systems engineering](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [se](studiengang) [bachelor](study_type)
+      - could you tell me my study plan for [applied research](studiengang) [masters](study_type)
+      - could you tell me my study plan for [architecture](studiengang) [masters](study_type)
+      - could you tell me my study plan for [business information systems](studiengang) [masters](study_type)
+      - could you tell me my study plan for [civil engineering](studiengang) [masters](study_type)
+      - could you tell me my study plan for [computer science](studiengang) [masters](study_type)
+      - could you tell me my study plan for [cs](studiengang) [masters](study_type)
+      - could you tell me my study plan for [informatic](studiengang) [masters](study_type)
+      - could you tell me my study plan for [informatics](studiengang) [masters](study_type)
+      - could you tell me my study plan for [energy efficiency design](studiengang) [masters](study_type)
+      - could you tell me my study plan for [e2d](studiengang) [masters](study_type)
+      - could you tell me my study plan for [eed](studiengang) [masters](study_type)
+      - could you tell me my study plan for [environmental process engineering](studiengang) [masters](study_type)
+      - could you tell me my study plan for [epe](studiengang) [masters](study_type)
+      - could you tell me my study plan for [environmental engineering](studiengang) [masters](study_type)
+      - could you tell me my study plan for [human resource management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [hr management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [human resource](studiengang) [masters](study_type)
+      - could you tell me my study plan for [hrm](studiengang) [masters](study_type)
+      - could you tell me my study plan for [identity design](studiengang) [masters](study_type)
+      - could you tell me my study plan for [id](studiengang) [masters](study_type)
+      - could you tell me my study plan for [industrial safety and security](studiengang) [masters](study_type)
+      - could you tell me my study plan for [interactive media systems](studiengang) [masters](study_type)
+      - could you tell me my study plan for [interactive media](studiengang) [masters](study_type)
+      - could you tell me my study plan for [ims](studiengang) [masters](study_type)
+      - could you tell me my study plan for [international business and finance](studiengang) [masters](study_type)
+      - could you tell me my study plan for [international finance](studiengang) [masters](study_type)
+      - could you tell me my study plan for [international business](studiengang) [masters](study_type)
+      - could you tell me my study plan for [finance](studiengang) [masters](study_type)
+      - could you tell me my study plan for [it project and process management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [it project management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [project process management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [marketing management digital](studiengang) [masters](study_type)
+      - could you tell me my study plan for [marketing management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [digital marketing](studiengang) [masters](study_type)
+      - could you tell me my study plan for [mechanical engineering](studiengang) [masters](study_type)
+      - could you tell me my study plan for [me](studiengang) [masters](study_type)
+      - could you tell me my study plan for [mechatronic systems](studiengang) [masters](study_type)
+      - could you tell me my study plan for [mechatronics](studiengang) [masters](study_type)
+      - could you tell me my study plan for [ms](studiengang) [masters](study_type)
+      - could you tell me my study plan for [production engineering](studiengang) [masters](study_type)
+      - could you tell me my study plan for [production](studiengang) [masters](study_type)
+      - could you tell me my study plan for [pe](studiengang) [masters](study_type)
+      - could you tell me my study plan for [project management civil engineering](studiengang) [masters](study_type)
+      - could you tell me my study plan for [civil project management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [sustainability management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [taxation and accounting](studiengang) [masters](study_type)
+      - could you tell me my study plan for [technology management](studiengang) [masters](study_type)
+      - could you tell me my study plan for [transformation design](studiengang) [masters](study_type)
+      - i wanna see my study plan for [architecture](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [business administration](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ba](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [business psychology](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [bp](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [civil engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ce](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [communication design](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [cd](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [computer engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ce](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [computer science](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [cs](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [informatic](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [informatics](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [creative engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ce](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [data science](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ds](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [digital design and production](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [digital design](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [design and production](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ddp](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [electrical engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ee](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [energy efficienct planning and building](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [eepb](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [energy planning](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [planning and building of energy](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [environmental process engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [environmental engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [epe](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [industrial engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ie](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [information systems](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [is](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [interactive media](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [im](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [media](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [international information systems](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [iis](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [international management](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [im](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [management](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [international management and engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [international management engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [ime](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [mechanical engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [me](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [mechatronics](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [mechatronic](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [social work](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [sw](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [systems engineering](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [se](studiengang) [bachelor](study_type)
+      - i wanna see my study plan for [applied research](studiengang) [master](study_type)
+      - i wanna see my study plan for [architecture](studiengang) [master](study_type)
+      - i wanna see my study plan for [business information systems](studiengang) [master](study_type)
+      - i wanna see my study plan for [civil engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [computer science](studiengang) [master](study_type)
+      - i wanna see my study plan for [cs](studiengang) [master](study_type)
+      - i wanna see my study plan for [informatic](studiengang) [master](study_type)
+      - i wanna see my study plan for [informatics](studiengang) [master](study_type)
+      - i wanna see my study plan for [energy efficiency design](studiengang) [master](study_type)
+      - i wanna see my study plan for [e2d](studiengang) [master](study_type)
+      - i wanna see my study plan for [eed](studiengang) [master](study_type)
+      - i wanna see my study plan for [environmental process engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [epe](studiengang) [master](study_type)
+      - i wanna see my study plan for [environmental engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [human resource management](studiengang) [master](study_type)
+      - i wanna see my study plan for [hr management](studiengang) [master](study_type)
+      - i wanna see my study plan for [human resource](studiengang) [master](study_type)
+      - i wanna see my study plan for [hrm](studiengang) [master](study_type)
+      - i wanna see my study plan for [identity design](studiengang) [master](study_type)
+      - i wanna see my study plan for [id](studiengang) [master](study_type)
+      - i wanna see my study plan for [industrial safety and security](studiengang) [master](study_type)
+      - i wanna see my study plan for [interactive media systems](studiengang) [master](study_type)
+      - i wanna see my study plan for [interactive media](studiengang) [master](study_type)
+      - i wanna see my study plan for [ims](studiengang) [master](study_type)
+      - i wanna see my study plan for [international business and finance](studiengang) [master](study_type)
+      - i wanna see my study plan for [international finance](studiengang) [master](study_type)
+      - i wanna see my study plan for [international business](studiengang) [master](study_type)
+      - i wanna see my study plan for [international finance](studiengang) [master](study_type)
+      - i wanna see my study plan for [finance](studiengang) [master](study_type)
+      - i wanna see my study plan for [it project and process management](studiengang) [master](study_type)
+      - i wanna see my study plan for [it project management](studiengang) [master](study_type)
+      - i wanna see my study plan for [project process management](studiengang) [master](study_type)
+      - i wanna see my study plan for [marketing management digital](studiengang) [master](study_type)
+      - i wanna see my study plan for [marketing management](studiengang) [master](study_type)
+      - i wanna see my study plan for [digital marketing](studiengang) [master](study_type)
+      - i wanna see my study plan for [mechanical engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [Mechanical engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [me](studiengang) [master](study_type)
+      - i wanna see my study plan for [mechatronic systems](studiengang) [master](study_type)
+      - i wanna see my study plan for [mechatronics](studiengang) [master](study_type)
+      - i wanna see my study plan for [ms](studiengang) [master](study_type)
+      - i wanna see my study plan for [production engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [production](studiengang) [master](study_type)
+      - i wanna see my study plan for [pe](studiengang) [master](study_type)
+      - i wanna see my study plan for [project management civil engineering](studiengang) [master](study_type)
+      - i wanna see my study plan for [civil project management](studiengang) [master](study_type)
+      - i wanna see my study plan for [sustainability management](studiengang) [master](study_type)
+      - i wanna see my study plan for [taxation and accounting](studiengang) [master](study_type)
+      - i wanna see my study plan for [technology management](studiengang) [master](study_type)
+      - i wanna see my study plan for [transformation design](studiengang) [master](study_type)
+      - I need to have my study plan for [architecture](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [business administration](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ba](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [business psychology](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [bp](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [civil engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ce](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [communication design](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [cd](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [computer engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ce](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [computer science](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [cs](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [informatic](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [informatics](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [creative engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ce](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [data science](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ds](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [digital design and production](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [digital design](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [design and production](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ddp](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [electrical engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ee](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [energy efficienct planning and building](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [eepb](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [energy planning](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [planning and building of energy](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [environmental process engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [environmental engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [epe](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [industrial engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ie](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [information systems](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [is](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [interactive media](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [im](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [media](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [international information systems](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [iis](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [international management](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [im](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [management](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [international management and engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [international management engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [ime](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [mechanical engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [me](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [mechatronics](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [mechatronic](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [social work](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [sw](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [systems engineering](studiengang) [bachelor](study_type)
+      - I need to have my study plan for [applied research](studiengang) [master](study_type)
+      - I need to have my study plan for [architecture](studiengang) [master](study_type)
+      - I need to have my study plan for [business information systems](studiengang) [master](study_type)
+      - I need to have my study plan for [civil engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [computer science](studiengang) [master](study_type)
+      - I need to have my study plan for [cs](studiengang) [master](study_type)
+      - I need to have my study plan for [informatic](studiengang) [master](study_type)
+      - I need to have my study plan for [informatics](studiengang) [master](study_type)
+      - I need to have my study plan for [energy efficiency design](studiengang) [master](study_type)
+      - I need to have my study plan for [e2d](studiengang) [master](study_type)
+      - I need to have my study plan for [eed](studiengang) [master](study_type)
+      - I need to have my study plan for [environmental process engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [epe](studiengang) [master](study_type)
+      - I need to have my study plan for [environmental engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [human resource management](studiengang) [master](study_type)
+      - I need to have my study plan for [hr management](studiengang) [master](study_type)
+      - I need to have my study plan for [human resource](studiengang) [master](study_type)
+      - I need to have my study plan for [hrm](studiengang) [master](study_type)
+      - I need to have my study plan for [identity design](studiengang) [master](study_type)
+      - I need to have my study plan for [id](studiengang) [master](study_type)
+      - I need to have my study plan for [industrial safety and security](studiengang) [master](study_type)
+      - I need to have my study plan for [interactive media systems](studiengang) [master](study_type)
+      - I need to have my study plan for [interactive media](studiengang) [master](study_type)
+      - I need to have my study plan for [ims](studiengang) [master](study_type)
+      - I need to have my study plan for [international business and finance](studiengang) [master](study_type)
+      - I need to have my study plan for [international finance](studiengang) [master](study_type)
+      - I need to have my study plan for [international business](studiengang) [master](study_type)
+      - I need to have my study plan for [international finance](studiengang) [master](study_type)
+      - I need to have my study plan for [finance](studiengang) [master](study_type)
+      - I need to have my study plan for [it project and process management](studiengang) [master](study_type)
+      - I need to have my study plan for [it project management](studiengang) [master](study_type)
+      - I need to have my study plan for [project process management](studiengang) [master](study_type)
+      - I need to have my study plan for [marketing management digital](studiengang) [master](study_type)
+      - I need to have my study plan for [marketing management](studiengang) [master](study_type)
+      - I need to have my study plan for [digital marketing](studiengang) [master](study_type)
+      - I need to have my study plan for [mechanical engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [Mechanical engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [me](studiengang) [master](study_type)
+      - I need to have my study plan for [mechatronic systems](studiengang) [master](study_type)
+      - I need to have my study plan for [mechatronics](studiengang) [master](study_type)
+      - I need to have my study plan for [ms](studiengang) [master](study_type)
+      - I need to have my study plan for [production engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [production](studiengang) [master](study_type)
+      - I need to have my study plan for [pe](studiengang) [master](study_type)
+      - I need to have my study plan for [project management civil engineering](studiengang) [master](study_type)
+      - I need to have my study plan for [civil project management](studiengang) [master](study_type)
+      - I need to have my study plan for [sustainability management](studiengang) [master](study_type)
+      - I need to have my study plan for [taxation and accounting](studiengang) [master](study_type)
+      - I need to have my study plan for [technology management](studiengang) [master](study_type)
+      - I need to have my study plan for [transformation design](studiengang) [master](study_type)
+      - What is the study plan for [architecture](studiengang) [bachelor](study_type)
+      - What is the study plan for [business administration](studiengang) [bachelor](study_type)
+      - What is the study plan for [ba](studiengang) [bachelor](study_type)
+      - What is the study plan for [business psychology](studiengang) [bachelor](study_type)
+      - What is the study plan for [bp](studiengang) [bachelor](study_type)
+      - What is the study plan for [civil engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [ce](studiengang) [bachelor](study_type)
+      - What is the study plan for [communication design](studiengang) [bachelor](study_type)
+      - What is the study plan for [cd](studiengang) [bachelor](study_type)
+      - What is the study plan for [computer engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [ce](studiengang) [bachelor](study_type)
+      - What is the study plan for [computer science](studiengang) [bachelor](study_type)
+      - What is the study plan for [cs](studiengang) [bachelor](study_type)
+      - What is the study plan for [informatic](studiengang) [bachelor](study_type)
+      - What is the study plan for [informatics](studiengang) [bachelor](study_type)
+      - What is the study plan for [creative engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [ce](studiengang) [bachelor](study_type)
+      - What is the study plan for [data science](studiengang) [bachelor](study_type)
+      - What is the study plan for [ds](studiengang) [bachelor](study_type)
+      - What is the study plan for [digital design and production](studiengang) [bachelor](study_type)
+      - What is the study plan for [digital design](studiengang) [bachelor](study_type)
+      - What is the study plan for [design and production](studiengang) [bachelor](study_type)
+      - What is the study plan for [ddp](studiengang) [bachelor](study_type)
+      - What is the study plan for [electrical engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [ee](studiengang) [bachelor](study_type)
+      - What is the study plan for [energy efficienct planning and building](studiengang) [bachelor](study_type)
+      - What is the study plan for [eepb](studiengang) [bachelor](study_type)
+      - What is the study plan for [energy planning](studiengang) [bachelor](study_type)
+      - What is the study plan for [planning and building of energy](studiengang) [bachelor](study_type)
+      - What is the study plan for [environmental process engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [environmental engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [epe](studiengang) [bachelor](study_type)
+      - What is the study plan for [industrial engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [ie](studiengang) [bachelor](study_type)
+      - What is the study plan for [information systems](studiengang) [bachelor](study_type)
+      - What is the study plan for [is](studiengang) [bachelor](study_type)
+      - What is the study plan for [interactive media](studiengang) [bachelor](study_type)
+      - What is the study plan for [im](studiengang) [bachelor](study_type)
+      - What is the study plan for [media](studiengang) [bachelor](study_type)
+      - What is the study plan for [international information systems](studiengang) [bachelor](study_type)
+      - What is the study plan for [iis](studiengang) [bachelor](study_type)
+      - What is the study plan for [international management](studiengang) [bachelor](study_type)
+      - What is the study plan for [im](studiengang) [bachelor](study_type)
+      - What is the study plan for [management](studiengang) [bachelor](study_type)
+      - What is the study plan for [international management and engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [international management engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [ime](studiengang) [bachelor](study_type)
+      - What is the study plan for [mechanical engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [me](studiengang) [bachelor](study_type)
+      - What is the study plan for [mechatronics](studiengang) [bachelor](study_type)
+      - What is the study plan for [mechatronic](studiengang) [bachelor](study_type)
+      - What is the study plan for [social work](studiengang) [bachelor](study_type)
+      - What is the study plan for [sw](studiengang) [bachelor](study_type)
+      - What is the study plan for [systems engineering](studiengang) [bachelor](study_type)
+      - What is the study plan for [applied research](studiengang) [master](study_type)
+      - What is the study plan for [architecture](studiengang) [master](study_type)
+      - What is the study plan for [business information systems](studiengang) [master](study_type)
+      - What is the study plan for [civil engineering](studiengang) [master](study_type)
+      - What is the study plan for [computer science](studiengang) [master](study_type)
+      - What is the study plan for [cs](studiengang) [master](study_type)
+      - What is the study plan for [informatic](studiengang) [master](study_type)
+      - What is the study plan for [informatics](studiengang) [master](study_type)
+      - What is the study plan for [energy efficiency design](studiengang) [master](study_type)
+      - What is the study plan for [e2d](studiengang) [master](study_type)
+      - What is the study plan for [eed](studiengang) [master](study_type)
+      - What is the study plan for [environmental process engineering](studiengang) [master](study_type)
+      - What is the study plan for [epe](studiengang) [master](study_type)
+      - What is the study plan for [environmental engineering](studiengang) [master](study_type)
+      - What is the study plan for [human resource management](studiengang) [master](study_type)
+      - What is the study plan for [hr management](studiengang) [master](study_type)
+      - What is the study plan for [human resource](studiengang) [master](study_type)
+      - What is the study plan for [hrm](studiengang) [master](study_type)
+      - What is the study plan for [identity design](studiengang) [master](study_type)
+      - What is the study plan for [id](studiengang) [master](study_type)
+      - What is the study plan for [industrial safety and security](studiengang) [master](study_type)
+      - What is the study plan for [interactive media systems](studiengang) [master](study_type)
+      - What is the study plan for [interactive media](studiengang) [master](study_type)
+      - What is the study plan for [ims](studiengang) [master](study_type)
+      - What is the study plan for [international business and finance](studiengang) [master](study_type)
+      - What is the study plan for [international finance](studiengang) [master](study_type)
+      - What is the study plan for [international business](studiengang) [master](study_type)
+      - What is the study plan for [international finance](studiengang) [master](study_type)
+      - What is the study plan for [finance](studiengang) [master](study_type)
+      - What is the study plan for [it project and process management](studiengang) [master](study_type)
+      - What is the study plan for [it project management](studiengang) [master](study_type)
+      - What is the study plan for [project process management](studiengang) [master](study_type)
+      - What is the study plan for [marketing management digital](studiengang) [master](study_type)
+      - What is the study plan for [marketing management](studiengang) [master](study_type)
+      - What is the study plan for [digital marketing](studiengang) [master](study_type)
+      - What is the study plan for [mechanical engineering](studiengang) [master](study_type)
+      - What is the study plan for [Mechanical engineering](studiengang) [master](study_type)
+      - What is the study plan for [me](studiengang) [master](study_type)
+      - What is the study plan for [mechatronic systems](studiengang) [master](study_type)
+      - What is the study plan for [mechatronics](studiengang) [master](study_type)
+      - What is the study plan for [ms](studiengang) [master](study_type)
+      - What is the study plan for [production engineering](studiengang) [master](study_type)
+      - What is the study plan for [production](studiengang) [master](study_type)
+      - What is the study plan for [pe](studiengang) [master](study_type)
+      - What is the study plan for [project management civil engineering](studiengang) [master](study_type)
+      - What is the study plan for [civil project management](studiengang) [master](study_type)
+      - What is the study plan for [sustainability management](studiengang) [master](study_type)
+      - What is the study plan for [taxation and accounting](studiengang) [master](study_type)
+      - What is the study plan for [technology management](studiengang) [master](study_type)
+      - What is the study plan for [transformation design](studiengang) [master](study_type)
+      - I am currently studying [architecture](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [business administration](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ba](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [business psychology](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [bp](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [civil engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ce](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [communication design](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [cd](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [computer engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [computer science](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [cs](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [informatic](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [informatics](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [creative engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [data science](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ds](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [digital design and production](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [digital design](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [design and production](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ddp](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [electrical engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ee](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [energy efficient planning and building](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [eepb](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [energy planning](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [planning and building of energy](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [environmental process engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [environmental engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [epe](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [industrial engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ie](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [information systems](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [is](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [interactive media](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [im](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [media](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [international information systems](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [iis](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [international management](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [management](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [international management and engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [ime](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [mechanical engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [me](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [mechatronics](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [social work](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [sw](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [systems engineering](studiengang) [bachelor](study_type) and I would like to have the study plan for it
+      - I am currently studying [applied research](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [architecture](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [business information systems](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [civil engineering](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [computer science](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [cs](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [informatic](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [informatics](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [energy efficiency design](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [e2d](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [eed](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [environmental process engineering](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [epe](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [environmental engineering](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [human resource management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [hr management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [human resource](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [hrm](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [identity design](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [id](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [industrial safety and security](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [interactive media systems](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [ims](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [international business and finance](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [international finance](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [international business](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [finance](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [it project and process management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [it project management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [project process management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [marketing management digital](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [marketing management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [digital marketing](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [mechanical engineering](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [me](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [mechatronic systems](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [mechatronics](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [ms](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [production engineering](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [production](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [pe](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [project management civil engineering](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [civil project management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [sustainability management](studiengang) masters and I would like to have the study plan for it
+      - I am currently studying [sustainability management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [taxation and accounting](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [technology management](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently studying [transformation design](studiengang) [masters](study_type) and I would like to have the study plan for it
+      - I am currently enrolled in [architecture](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [business administration](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ba](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [business psychology](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [bp](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [civil engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ce](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [communication design](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [cd](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [computer engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [computer science](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [cs](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [informatic](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [informatics](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [creative engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [data science](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ds](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [digital design and production](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [digital design](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [design and production](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ddp](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [electrical engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ee](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [energy efficient planning and building](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [eepb](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [energy planning](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [planning and building of energy](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [environmental process engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [environmental engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [epe](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [industrial engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ie](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [information systems](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [is](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [interactive media](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [im](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [media](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [international information systems](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [iis](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [international management](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [management](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [international management and engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ime](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [mechanical engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [me](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [mechatronics](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [social work](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [sw](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [systems engineering](studiengang) [bachelor](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [applied research](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [architecture](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [business information systems](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [civil engineering](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [computer science](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [cs](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [informatic](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [informatics](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [energy efficiency design](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [e2d](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [eed](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [environmental process engineering](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [epe](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [environmental engineering](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [human resource management](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [hr management](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [human resource](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [hrm](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [identity design](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [id](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [industrial safety and security](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [interactive media systems](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [ims](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [international business and finance](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [international finance](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [international business](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [finance](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [it project and process management](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [it project management](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [project process management](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [marketing management digital](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [marketing management](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [digital marketing](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [mechanical engineering](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [me](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [mechatronics](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [mechatronic](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [renewable energies](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [re](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [sustainable energies](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [se](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [urban planning](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [up](studiengang) [masters](study_type) and would like to have the study plan for it
+      - I am currently enrolled in [systems engineering](studiengang) [masters](study_type) and would like to have the study plan for i
+
+  - intent: general_studyplan_german
+    examples: |
+      - Kannst du mir meinen Studienplan geben?
+      - Kannst du mir sagen was mein Studienplan ist?
+      - Ich möchte meinen Studienplan haben.
+      - Könntest du mir bitte sagen, was mein Studienplan ist?
+      - Kannst du mir bitte den Studienplan meines Studiengangs geben?
+      - Kannst du den Studienplan meines studiengangs geben?
+      - Ich brauche meinen Studienplan.
+      - Ich möchte meinen Studienplan ansehen.
+      - Ich möchte meinen Studienplan sehen.
+      - Ich möchte den Studienplan meines Studiengangs ansehen.
+      - Ich möchte wissen, was mein Studienplan ist.
+      - Kannst du mir meinen Studienplan zeigen?
+      - Kannst du mir meinen Studienplan geben?
+      - Ich suche den Studienplan meines Studiengangs.
+      - Ich suche meinen Studienplan.
+      - Könntest du mir bitte den Studienplan meines Studiengangs geben?
+      - Ich brauche den Studienplan meines Studiengangs.
+      - Studienplan
+      - Ich möchte den Studienplan für [architektur](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [betriebswirtschaft](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [bwl](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [wirtschaftspsychologie](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [bauingeniurwesen](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [kommunikationsdesign](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [technische informatik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [ti](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [tech it](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [informatik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [creative engineering](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [data science](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [ds](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [digitaler baumeister](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [elektrotechnik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [energieeffizientes planen und bauen](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [energieeffizientes planen](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [energieffizientes bauen](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [umwelt und verfahrenstechnik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [umwelt technik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [industrial engineering](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [wirtschaftsinformatik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [medien](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [internationales wirtschaftsinformatik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [international management](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [internationale management](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [internationale wirtschaftsingenieurwesen](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [maschinenbau](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [mechatronik](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [soziale arbeit](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [systems engineering](studiengang) [bachelor](study_type) haben
+      - Ich möchte den Studienplan für [angewandte forschung in den ingenieurwissenschaften](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [angewandte forschung](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [architektur](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [wirtschaftsinformationssysteme](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [bauingenieurwesen](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [informatik](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [energieeffizientes design](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [umwelt und verfahrenstechnik](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [umwelt](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [human resource management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [hr management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [human resource](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [hrm](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [identity design](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [id](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [industrial safety and security](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [interactive media systems](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [ims](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [international business und finance](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [international business](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [international finance](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [finance](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [it project and process management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [it project management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [project process management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [marketing management digital](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [marketing management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [digital marketing](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [mechanical engineering](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [me](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [mechatronic systems](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [mechatronics](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [ms](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [production engineering](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [production](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [pe](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [project management civil engineering](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [civil project management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [sustainability management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [taxation and accounting](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [technology management](studiengang) [master](study_type) haben
+      - Ich möchte den Studienplan für [transformation design](studiengang) [master](study_type) haben
+      - Kannst du mir meinen Studienplan für [architektur](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [betriebswirtschaft](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [bwl](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [wirtschaftspsychologie](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [bauingeniurwesen](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [kommunikationsdesign](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [technische informatik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [ti](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [tech it](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [informatik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [creative engineering](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [data science](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [ds](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [digitaler baumeister](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [elektrotechnik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [energieeffizientes planen und bauen](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [energieeffizientes planen](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [energieffizientes bauen](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [umwelt und verfahrenstechnik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [umwelt technik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [industrial engineering](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [wirtschaftsinformatik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [medien](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [internationales wirtschaftsinformatik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [international management](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [internationales management](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [internationales wirtschaftsingenieurwesen](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [maschinenbau](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [mechatronik](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [soziale arbeit](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [systems engineering](studiengang) [bachelor](study_type) sagen
+      - Kannst du mir meinen Studienplan für [angewandte forschung in den ingenieurwissenschaften](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [angewandte forschung](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [architektur](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [wirtschaftsinformationssysteme](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [bauingenieurwesen](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [informatik](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [energieeffizientes design](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [umwelt und verfahrenstechnik](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [umwelt](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [human resource management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [hr management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [human resource](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [hrm](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [identity design](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [id](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [industrial safety and security](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [interactive media systems](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [ims](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [international business und finance](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [international business](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [international finance](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [finance](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [it project and process management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [it project management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [project process management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [marketing management digital](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [marketing management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [digital marketing](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [mechanical engineering](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [Mechanical engineering](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [me](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [mechatronic systems](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [mechatronics](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [ms](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [production engineering](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [production](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [pe](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [project management civil engineering](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [civil project management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [sustainability management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [taxation and accounting](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [technology management](studiengang) [master](study_type) sagen
+      - Kannst du mir meinen Studienplan für [transformation design](studiengang) [master](study_type) sagen
+      - ich möchte meinen Studienplan sehen für [architektur](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [betriebswirtschaft](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [bwl](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [wirtschaftspsychologie](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [bauingeniurwesen](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [kommunikationsdesign](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [technische informatik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [ti](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [tech it](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [informatik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [creative engineering](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [data science](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [ds](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [digitaler baumeister](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [elektrotechnik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [energieeffizientes planen und bauen](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [energieeffizientes planen](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [energieffizientes bauen](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [umwelt und verfahrenstechnik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [umwelt technik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [industrial engineering](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [wirtschaftsinformatik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [medien](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [internationales wirtschaftsinformatik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [international management](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [internationales management](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [internationales wirtschaftsingenieurwesen](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [maschinenbau](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [mechatronik](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [soziale arbeit](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [systems engineering](studiengang) [bachelor](study_type)
+      - ich möchte meinen Studienplan sehen für [angewandte forschung in den ingenieurwissenschaften](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [angewandte forschung](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [architektur](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [wirtschaftsinformationssysteme](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [bauingenieurwesen](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [informatik](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [energieeffizientes design](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [umwelt und verfahrenstechnik](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [umwelt](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [human resource management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [hr management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [human resource](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [hrm](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [identity design](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [id](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [industrial safety and security](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [interactive media systems](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [ims](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [international business und finance](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [international business](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [international finance](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [finance](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [it project and process management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [it project management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [project process management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [marketing management digital](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [marketing management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [digital marketing](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [mechanical engineering](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [Mechanical engineering](studiengang) [master](study_type) 
+      - ich möchte meinen Studienplan sehen für [me](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [mechatronic systems](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [mechatronics](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [ms](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [production engineering](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [production](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [pe](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [project management civil engineering](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [civil project management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [sustainability management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [taxation and accounting](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [technology management](studiengang) [master](study_type)
+      - ich möchte meinen Studienplan sehen für [transformation design](studiengang) [master](study_type)
+      - Ich studiere derzeit [architektur](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [betriebswirtschaft](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [bwl](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [wirtschaftspsychologie](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [bauingeniurwesen](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [kommunikationsdesign](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [technische informatik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [ti](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [tech it](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [informatik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [creative engineering](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [data science](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [ds](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [digitaler baumeister](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [elektrotechnik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [energieeffizientes planen und bauen](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [energieeffizientes planen](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [energieeffizientes bauen](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [umwelt und verfahrenstechnik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [umwelt technik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [industrial engineering](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [wirtschaftsinformatik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [medien](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [internationales wirtschaftsinformatik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [international management](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [internationale management](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [internationale wirtschaftsingenieurwesen](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [maschinenbau](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [mechatronik](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [soziale arbeit](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [systems engineering](studiengang) [bachelor](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [angewandte forschung](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [architektur](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [wirtschaftsinformationssysteme](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [bauingenieurwesen](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [informatik](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [energieeffizientes design](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [umwelt und verfahrenstechnik](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [umwelt](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [human resource management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [hr management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [human resource](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [hrm](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [identity design](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [id](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [industrial safety and security](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [interactive media systems](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [ims](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [international business und finance](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [international business](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [international finance](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [finance](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [it project and process management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [it project management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [project process management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [marketing management digital](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [marketing management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [digital marketing](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [mechanical engineering](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [Mechanical engineering](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [me](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [mechatronic systems](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [mechatronics](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [ms](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [production engineering](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [production](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [pe](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [project management civil engineering](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [civil project management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [sustainability management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [taxation and accounting](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [technology management](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich studiere derzeit [transformation design](studiengang) [master](study_type) und möchte den Studienplan dafür haben
+      - Ich brauche meinen Studienplan für [architektur](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [betriebswirtschaft](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [bwl](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [wirtschaftspsychologie](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [bauingeniurwesen](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [kommunikationsdesign](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [technische informatik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [ti](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [tech it](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [informatik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [creative engineering](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [data science](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [ds](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [digitaler baumeister](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [elektrotechnik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [energieeffizientes planen und bauen](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [energieeffizientes planen](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [energieffizientes bauen](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [umwelt und verfahrenstechnik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [umwelt technik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [industrial engineering](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [wirtschaftsinformatik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [medien](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [internationales wirtschaftsinformatik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [international management](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [internationales management](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [internationales wirtschaftsingenieurwesen](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [maschinenbau](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [mechatronik](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [soziale arbeit](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [systems engineering](studiengang) [bachelor](study_type)
+      - Ich brauche meinen Studienplan für [angewandte forschung in den ingenieurwissenschaften](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [angewandte forschung](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [architektur](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [wirtschaftsinformationssysteme](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [bauingenieurwesen](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [informatik](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [energieeffizientes design](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [umwelt und verfahrenstechnik](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [umwelt](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [human resource management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [hr management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [human resource](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [hrm](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [identity design](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [id](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [industrial Safety and Security](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [interactive media systems](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [ims](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [international business und finance](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [international business](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [international finance](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [finance](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [it project and process management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [it project Management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [project process Management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [marketing management digital](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [marketing management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [digital marketing](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [mechanical engineering](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [Mechanical engineering](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [me](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [mechatronic systems](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [mechatronics](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [ms](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [production engineering](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [production](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [pe](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [project management civil engineering](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [civil project management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [sustainability management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [taxation and accounting](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [technology management](studiengang) [master](study_type)
+      - Ich brauche meinen Studienplan für [transformation design](studiengang) [master](study_type)
+      - ich bin immatrikuliert in [architektur](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [betriebswirtschaftslehre](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [bw](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [wirtschaftspsychologie](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [bp](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [bauingenieurwesen](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [bau](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [kommunikationsdesign](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [kd](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [computertechnik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [informatik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [informatic](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [kreativtechnik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [data science](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [ds](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [digitales design und produktion](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [digitales design](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [design und produktion](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [ddp](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [elektrotechnik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [et](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [energieeffiziente planung und bau](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [eepb](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [energieplanung](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [planung und bau von energie](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [umweltverfahrenstechnik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [umweltingenieurwesen](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [umweltprozesstechnik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [industrieingenieurwesen](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [iw](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [informationssysteme](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [is](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [interaktive medien](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [im](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [medien](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [internationales informationssystem](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [iis](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [internationales management](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [management](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [internationales management und ingenieurwesen](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [ime](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [maschinenbau](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [mechanik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [mechatronik](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [soziale arbeit](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [soziale wissenschaften](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [systems engineering](studiengang) [bachelor](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [angewandte forschung in den ingenieurwissenschaften](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [angewandte forschung](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [architektur](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [wirtschaftsinformationssysteme](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [bauingenieurwesen](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [informatik](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [energieeffizientes design](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [umwelt- und verfahrenstechnik](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [umwelt](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [human resource management](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [hr management](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [hrm](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [identity design](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [industrial safety and security](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [interaktive mediensysteme](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [ims](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [internationales business und finanz](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [internationales business](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [internationales finanz](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [finanz](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [it-projekt- und prozessmanagement](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [it-projektmanagement](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [projektprozessmanagement](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [marketingmanagement digital](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [marketingmanagement](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [digital marketing](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [mechanik](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [mechatronik](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [ms](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [produktionstechnik](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [produktion](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [pe](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [projektmanagement bauingenieurwesen](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [zivilprojektmanagement](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [nachhaltiges management](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [steuer- und rechnungswesen](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [technologiemanagement](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+      - ich bin immatrikuliert in [transformationsdesign](studiengang) [master](study_type) und möchte gerne den studienplan dafür haben
+
+  ###---------------------------------------------------- Out of scope ----------------------------------------------------------###  
+
+  - intent: out_of_scope
+    examples: |
+      - I want to order food
+      - What is 2 + 2?
+      - Who's the US President?
+      - Wer wird Fußball Weltmeister?
+      - Welche Restaurants gibt es in München?
+      - sdfsdfs
+      - soos
+      - are you stupid?
+      - Write me a poem
+      - What is the weather like?
+      - What is the time?
+      - What is the date?
+      - Wie viel Uhr ist es?
+      - wuhuuu
+      - faajj
+      - sdfiikc
+      - yeeee
+      - ddddf
+      - lllll
+      - du bist dumm
+      - was willst du von mir?
+      - wo ist düsseldorf?
+      - was ist die hauptstadt von deutschland?
+      - geile sache
+      - alter
+
+  ###---------------------------------------------------- Special ----------------------------------------------------------###
+
+  - intent: study_type_choice
+    examples: |
+      - Mein Studiengang ist [bachelor](study_type).
+      - Mein Studiengang ist [master](study_type).
+      - Ich mache einen [bachelor](study_type).
+      - Ich mache einen [master](study_type).
+      - Für den [master](study_type), bitte.
+      - Für den [bachelor](study_type), bitte.
+      - Für [bachelor](study_type), bitte.
+      - Für [master](study_type), bitte.
+      - my program is [bachelors](study_type)
+      - my program is [masters](study_type)
+      - i am doing [bachelors](study_type)
+      - i am doing [masters](study_type)
+      - for [masters](study_type) please
+      - for [masters](study_type)
+      - for [bachelors](study_type) please
+      - for [bachelor](study_type)
+      - my program is a [bachelor](study_type) program
+      - my program is a [master](study_type) program
+      - my program is a [bachelor](study_type) program
+      - my program is a [master](study_type) program
+      - my program is a [bachelor's](study_type) program
+      - my program is a [master's](study_type) program
+      - my program is a [bachelor's](study_type) program
+      - my program is a [master's](study_type) program
+      - [master's](study_type)
+      - [bachelor's](study_type)
+      - [master](study_type)
+      - [bachelor](study_type)
+      - [bachelors](study_type)
+      - [masters](study_type)
+
+
+  - intent: study_programs
+    examples: |
+      - [architektur](studiengang)
+      - [betriebswirtschaft](studiengang)
+      - [bwl](studiengang)
+      - [wirtschaftspsychologie](studiengang) 
+      - [bauingenieurwesen](studiengang) 
+      - [kommunikationsdesign](studiengang) 
+      - [technische informatik](studiengang) 
+      - [ti](studiengang) 
+      - [tech it](studiengang) 
+      - [informatik](studiengang) 
+      - [creative engineering](studiengang) 
+      - [data science](studiengang) 
+      - [ds](studiengang) 
+      - [digitaler baumeister](studiengang) 
+      - [elektrotechnik](studiengang) 
+      - [energieeffizientes planen und bauen](studiengang) 
+      - [energieeffizientes planen](studiengang) 
+      - [energieeffizientes bauen](studiengang) 
+      - [umwelt und verfahrenstechnik](studiengang) 
+      - [umwelt technik](studiengang) 
+      - [industrial engineering](studiengang) 
+      - [wirtschaftsinformatik](studiengang) 
+      - [medien](studiengang) 
+      - [internationales wirtschaftsinformatik](studiengang) 
+      - [international management](studiengang) 
+      - [internationales management](studiengang) 
+      - [internationales wirtschaftsingenieurwesen](studiengang) 
+      - [maschinenbau](studiengang) 
+      - [mechatronik](studiengang) 
+      - [soziale arbeit](studiengang) 
+      - [systems engineering](studiengang) 
+      - [angewandte forschung in den ingenieurwissenschaften](studiengang) 
+      - [angewandte forschung](studiengang) 
+      - [architektur](studiengang) 
+      - [wirtschaftsinformationssysteme](studiengang) 
+      - [bauingenieurwesen](studiengang) 
+      - [informatik](studiengang) 
+      - [energieeffizientes design](studiengang) 
+      - [umwelt und verfahrenstechnik](studiengang) 
+      - [umwelt](studiengang) 
+      - [human resource management](studiengang) 
+      - [hr management](studiengang) 
+      - [human resource](studiengang) 
+      - [hrm](studiengang) 
+      - [identity design](studiengang) 
+      - [id](studiengang) 
+      - [industrial safety and security](studiengang) 
+      - [interactive media systems](studiengang) 
+      - [interactive media](studiengang) 
+      - [ims](studiengang) 
+      - [international business und finance](studiengang) 
+      - [international business](studiengang) 
+      - [international finance](studiengang) 
+      - [finance](studiengang) 
+      - [it project and process management](studiengang) 
+      - [it project Management](studiengang) 
+      - [project process Management](studiengang) 
+      - [marketing management digital](studiengang) 
+      - [marketing management](studiengang) 
+      - [digital marketing](studiengang) 
+      - [mechanical engineering](studiengang) 
+      - [Mechanical engineering](studiengang)  
+      - [me](studiengang) 
+      - [mechatronic systems](studiengang) 
+      - [mechatronics](studiengang) 
+      - [ms](studiengang) 
+      - [production engineering](studiengang) 
+      - [production](studiengang) 
+      - [pe](studiengang) 
+      - [project management civil engineering](studiengang) 
+      - [civil project management](studiengang) 
+      - [sustainability management](studiengang) 
+      - [taxation and accounting](studiengang) 
+      - [technology management](studiengang) 
+      - [transformation design](studiengang) 
+      - [architecture](studiengang)
+      - [business administration](studiengang)
+      - [ba](studiengang)
+      - [business psychology](studiengang)
+      - [bp](studiengang)
+      - [civil engineering](studiengang)
+      - [ce](studiengang)
+      - [communication design](studiengang)
+      - [cd](studiengang)
+      - [computer engineering](studiengang)
+      - [ce](studiengang)
+      - [computer science](studiengang)
+      - [cs](studiengang)
+      - [informatic](studiengang)
+      - [informatics](studiengang)
+      - [creative engineering](studiengang)
+      - [ce](studiengang)
+      - [data science](studiengang)
+      - [ds](studiengang)
+      - [digital design and production](studiengang)
+      - [digital design](studiengang)
+      - [design and production](studiengang)
+      - [ddp](studiengang)
+      - [electrical engineering](studiengang)
+      - [ee](studiengang)
+      - [energy efficienct planning and building](studiengang)
+      - [eepb](studiengang)
+      - [energy planning](studiengang)
+      - [planning and building of energy](studiengang)
+      - [environmental process engineering](studiengang)
+      - [environmental engineering](studiengang)
+      - [epe](studiengang)
+      - [industrial engineering](studiengang)
+      - [ie](studiengang)
+      - [information systems](studiengang)
+      - [is](studiengang)
+      - [interactive media](studiengang)
+      - [im](studiengang)
+      - [media](studiengang)
+      - [international information systems](studiengang)
+      - [iis](studiengang)
+      - [international management](studiengang)
+      - [im](studiengang)
+      - [management](studiengang)
+      - [international management and engineering](studiengang)
+      - [international management engineering](studiengang)
+      - [ime](studiengang)
+      - [mechanical engineering](studiengang)
+      - [me](studiengang)
+      - [mechatronics](studiengang)
+      - [mechatronic](studiengang)
+      - [social work](studiengang)
+      - [sw](studiengang)
+      - [systems engineering](studiengang)
+      - [se](studiengang)
+      - [applied research](studiengang)
+      - [architecture](studiengang)
+      - [business information systems](studiengang)
+      - [civil engineering](studiengang)
+      - [computer science](studiengang)
+      - [cs](studiengang)
+      - [informatic](studiengang)
+      - [informatics](studiengang)
+      - [energy efficiency design](studiengang)
+      - [e2d](studiengang)
+      - [eed](studiengang)
+      - [environmental process engineering](studiengang)
+      - [epe](studiengang)
+      - [environmental engineering](studiengang)
+      - [human resource management](studiengang)
+      - [hr management](studiengang)
+      - [human resource](studiengang)
+      - [hrm](studiengang)
+      - [identity design](studiengang)
+      - [id](studiengang)
+      - [industrial safety and security](studiengang)
+      - [interactive media systems](studiengang)
+      - [interactive media](studiengang)
+      - [ims](studiengang)
+      - [international business and finance](studiengang)
+      - [international finance](studiengang)
+      - [international business](studiengang)
+      - [international finance](studiengang)
+      - [finance](studiengang)
+      - [it project and process management](studiengang)
+      - [it project management](studiengang)
+      - [project process management](studiengang)
+      - [marketing management digital](studiengang)
+      - [marketing management](studiengang)
+      - [digital marketing](studiengang)
+      - [mechanical engineering](studiengang)
+      - [Mechanical engineering](studiengang)
+      - [me](studiengang)
+      - [mechatronic systems](studiengang)
+      - [mechatronics](studiengang)
+      - [ms](studiengang)
+      - [production engineering](studiengang)
+      - [production](studiengang)
+      - [pe](studiengang)
+      - [project management civil engineering](studiengang)
+      - [civil project management](studiengang)
+      - [sustainability management](studiengang)
+      - [taxation and accounting](studiengang)
+      - [technology management](studiengang)
+      - [transformation design](studiengang)
+
+  - intent: danke
+    examples: |
+      - Danke
+      - vielen Dank
+      - Danke!
+      - Vielen Dank!
+      - Danke schön
+      - Sehr gut danke
+      - Super danke
+      - Danke :)
+      - Danke <3
+      - Super
+      - Perfekt
+      - Super!
+      - Perfekt!
+      - Super Antwort
+      - Das ist richtig
+      - Super :)
+      - Ich mag das
+      - Sehr gut!
+      - Großartig
+      - Das funktioniert gut
+      - Gut
+      - Gute Arbeit
+      - Gute Antwort
+
+  - intent: thanks
+    examples: |
+      - Thanks
+      - Thank you
+      - Thanks!
+      - Thank you!
+      - Perfect answer
+      - Thanks :)
+      - Very good, thanks
+      - Great, thanks
+      - Thanks a lot
+      - Thanks <3
+      - Nice
+      - Nice!
+      - This is nice
+      - Nice answer
+      - This is correct
+      - Nice :)
+      - I like this
+      - Very good!
+      - Great
+      - This works well
+      - Good
+      - Good job
+      - Good answer
+
+  - intent: tschuess
+    examples: |
+      - Tschüss
+      - Auf Wiedersehen
+      - Bis bald
+      - Bis später
+      - Tschüssi
+      - Tschau
+      - Mach's gut
+      - Bis dann
+      - Tschüsschen
+
+  - intent: bye
+    examples: |
+      - Bye
+      - Goodbye
+      - See you later
+      - See you
+      - Ciao
+      - Bye bye
+      - Bye!
+      - Goodbye!
+      - See you later!
+      - See you!
+      - Ciao!
+      - Bye bye!
+      - Bye :)
+      - Goodbye :)
+      - See you later :)
+      - See you :)
+      - Ciao :)
+      - Bye bye :)
+      - See you
+
+  - intent: wrong
+    examples: |
+      - This is wrong
+      - This is not right
+      - This is incorrect
+      - Wrong
+      - Incorrect
+      - Not right
+      - That's wrong
+      - That's incorrect
+      - That's not right
+      - The response is wrong
+      - Your response is wrong
+      - Your response is not right
+      - No
+      - Not right
+
+  - intent: falsch
+    examples: |
+      - Das ist falsch
+      - Das ist nicht richtig
+      - Die Antwort ist falsch
+      - Deine Anwtort ist falsch
+      - Die gegebene Antwort ist nicht richtig
+      - Falsch
+      - Nicht richtig
+      - Das ist inkorrekt
+      - Das ist nicht korrekt
+      - Das ist aber falsch
+      - Ne
+      - Nope
+      - Nein
+      
+      
+      
+      

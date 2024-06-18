@@ -1,0 +1,61 @@
+# Source: https://www.tha.de/en/service/HSA-mobile.html
+
+Q: What is HSA mobile? 
+A: HSA mobile is a service that provides quick access via smartphone to useful services at Hochschule Augsburg.
+
+Q: How can I access HSA mobile? 
+A: You can access HSA mobile through your smartphone’s web browser or by downloading the app if available.
+
+Q: What features does HSA mobile offer? 
+A: HSA mobile offers features such as exam administration, webmail, cafeteria menu, Moodle, InfoGuide-App, WLAN configuration, OpenVPN, cloud services, and more.
+
+Q: Can I view my exam schedule on HSA mobile? 
+A: Yes, you can view your exam schedule through the exam administration feature on HSA mobile.
+
+Q: Is there a cafeteria menu available on HSA mobile? 
+A: Yes, the cafeteria menu is available on HSA mobile, so you can see what’s being served each day.
+
+Q: Can I access the learning platform Moodle through HSA mobile? 
+A: Absolutely, you can access Moodle directly through HSA mobile for your e-learning needs.
+
+Q: What is the InfoGuide-App? 
+A: The InfoGuide-App is an application that allows you to search for library materials and information.
+
+Q: How do I configure WLAN through HSA mobile? 
+A: HSA mobile provides you with the necessary settings and instructions to configure WLAN on your device.
+
+Q: What is OpenVPN and how can I use it? 
+A: OpenVPN is a service that allows you to securely connect to the university’s network remotely, and you can set it up through HSA mobile.
+
+Q: Does HSA mobile offer cloud services? 
+A: Yes, cloud services are available through HSA mobile, providing you with storage and collaboration options.
+
+Q: Can I find semester dates on HSA mobile? 
+A: Yes, semester dates are listed on HSA mobile for your convenience.
+
+Q: Is there a way to view the campus map on HSA mobile? 
+A: The campus map is available on HSA mobile to help you navigate the university grounds.
+
+Q: Can I find information about university events on HSA mobile? 
+A: Yes, you can find information about upcoming events at the university on HSA mobile.
+
+Q: What is the Career Service feature on HSA mobile? 
+A: The Career Service feature provides resources and information to support your career development.
+
+Q: Are there news updates related to studies on HSA mobile? 
+A: Yes, HSA mobile provides news updates related to studies and university life.
+
+Q: What is the BAföG Direct feature on HSA mobile? 
+A: BAföG Direct is a feature that provides quick access to information and services related to student financial aid.
+
+Q: Can I use HSA mobile to contact university personnel? 
+A: Yes, HSA mobile includes a directory for finding and contacting university personnel.
+
+Q: Is there a feedback option on HSA mobile? 
+A: Yes, you can provide feedback about the university services through HSA mobile.
+
+Q: How can I access the HSA_shop through HSA mobile? 
+A: HSA mobile provides a link to the HSA_shop where you can purchase university merchandise.
+
+Q: Can I manage my library account through HSA mobile? 
+A: Yes, you can manage your library account and access library services through HSA mobile.

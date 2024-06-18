@@ -1,0 +1,47 @@
+# Source: https://www.tha.de/en/Computer-Science/Computer-Science-BSc.html
+
+Q: What are the main areas covered in the Computer Science program curriculum?
+A: The main areas covered in the Computer Science program curriculum include:
+    1. Composition and mode of operation of IT systems
+    2. Software development methods
+    3. Computer networks
+    4. Databases
+    5. Mathematics
+    6. Statistics
+    7. Numerical methods
+    8. Physics
+    9. Business studies
+    10. Strategies for method selection and development
+    11. Modeling
+    12. Problem-solving
+Additionally, soft skills such as teamwork and presentation skills are also emphasized through supervised project work and seminars.
+
+Q: What degree is awarded upon completion of the computer science bachelor's degree course?
+A: Upon completion of the computer science bachelor's degree course, students are awarded the degree of Bachelor of Science, or B.Sc. for short.
+
+Q: What is the aim of the computer science bachelor’s degree course?
+A: The aim of the computer science bachelor’s degree course is to provide students with a comprehensive understanding of IT systems' composition and mode of operation, software development methods, computer networks, and databases. Additionally, it introduces students to related disciplines such as mathematics, statistics, numerical methods, physics, and business studies. The course also covers strategies for method selection and development, as well as modeling and problem-solving. Soft skills such as teamwork and giving presentations are also taught through supervised project work and seminars.
+
+Q: How long does it typically take to complete the computer science bachelor’s degree program?
+A: The computer science bachelor’s degree program is normally completed after seven semesters.
+
+Q: What are the study modes available for the computer science bachelor’s degree program?
+A: The study modes available for the computer science bachelor’s degree program are full-time and dual cooperative study program.
+
+Q: What language is the computer science bachelor’s degree program conducted in?
+A: The computer science bachelor’s degree program is conducted in German.
+
+Q: What is the career expectation for graduates of the computer science bachelor’s degree program?
+A: Graduates of the computer science bachelor’s degree program can expect a varied and versatile job profile, including roles such as system and application programming, systems analysis, software systems development and maintenance, planning and execution of large-scale IT projects, computer networks support and expansion, consulting in information processing issues, training for staff and customers, web design, and multimedia productions. Job opportunities are particularly good due to the changes in communication culture brought about by computers and the internet, leading to a shortage of computer scientists and IT specialists.
+
+Q: When does the course begin for applicants to the computer science bachelor’s degree program?
+A: The course for applicants to the computer science bachelor’s degree program begins each winter semester on October 1st.
+
+Q: What are the admission requirements for the computer science bachelor’s degree program?
+A: Applicants for a place on the computer science bachelor’s degree program should demonstrate an interest in science and technology, as well as having a good grasp of logic. They should also possess qualities of being inquisitive, imaginative, and creative.
+
+Q: Who is responsible for Academic counseling?
+A: Academic counseling for the Computer Science program is overseen by Prof. Dr. Lothar Braun. He can be contacted via:
+Phone: +49 821 5586-3378
+Fax: +49 821 5586-3499
+Email: lothar.braun@tha.de

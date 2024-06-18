@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  rasa:
+    build:
+      context: ./backend/rasa
+      dockerfile: Dockerfile
+    container_name: rasa
+    volumes:
+      - ./backend/rasa:/app
+    ports:
+      - "5005:5005"
+    command: "rasa run --enable-api"
+    depends_on:
+      - actions
+    networks:
+      - shared_network
+    restart: unless-stopped
+
+  actions:
+    build:
+      context: ./backend/rasa
+      dockerfile: Dockerfile
+    container_name: actions
+    volumes:
+      - ./backend/rasa:/app
+    ports:
+      - "5055:5055"
+    command: "rasa run actions"
+    networks:
+      - shared_network
+    restart: unless-stopped
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: streamlit
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - rasa
+    networks:
+      - shared_network
+    restart: unless-stopped
+
+  ollama:
+    build:
+      context: ./ollama
+      dockerfile: Dockerfile
+    container_name: ollama
+    hostname: ollama-container
+    stdin_open: true
+    tty: true
+    environment:
+      OLLAMA_HOST: 0.0.0.0
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    expose:
+      - 11434
+    volumes:
+      - ./ollama:/app
+    ports:
+      - "11434:11434"
+    networks:
+      - shared_network
+    restart: on-failure
+
+
+networks:
+  shared_network:
+    driver: bridge
