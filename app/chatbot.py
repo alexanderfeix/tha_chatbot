@@ -52,13 +52,13 @@ class ChatBot:
         :param query: user question
         :return: response from the chatbot as tuple: (answer, relevant_docs, reranked_docs, similarity_score)
         """
-        response = requests.post("http://rasa:5005/model/parse", json={"text": query, "message_id": query.strip()})
+        response = requests.post("http://localhost:5005/model/parse", json={"text": query, "message_id": query.strip()})
 
         if (response.json()["intent"]["name"] == "out_of_scope" or
                 response.json()["intent"]["name"] == "nlu_fallback"):
             return self.model.get_response(query, chat_history, 5.0, -2.0)
         else:
-            real_response = requests.post("http://rasa:5005/conversations/test_id/trigger_intent", json={
+            real_response = requests.post("http://localhost:5005/conversations/test_id/trigger_intent", json={
                                               "name": response.json()["intent"]["name"],
                                               "entities": response.json()["entities"]
                                           })

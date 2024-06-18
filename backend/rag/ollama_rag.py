@@ -30,7 +30,7 @@ class OllamaRAG:
         """
         self.embedding_llm, self.vector_index, self.vector_index_alternative = None, None, None
         self.retriever, self.retriever_alternative, self.llm, self.document_chain = None, None, None, None
-        self.llm = Ollama(model=text_gen_model, temperature=0.1, base_url='http://ollama-container:11434')
+        self.llm = Ollama(model=text_gen_model, temperature=0.1, base_url='http://localhost:11434')
 
         self.embed_model_name: str = embedding_model
         self.reranking_model: str = reranking_model
